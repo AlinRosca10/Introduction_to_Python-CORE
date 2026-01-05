@@ -1,0 +1,1 @@
+print ("Hello world!!! Alin is the best programmer in the world!!! No one isn't like he!!!")
