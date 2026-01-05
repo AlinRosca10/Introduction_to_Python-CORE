@@ -1,0 +1,2557 @@
+[
+    {
+        "label": "nr_achiziti",
+        "importPath": "proiect_final.analiza_date_client_achiziti",
+        "description": "proiect_final.analiza_date_client_achiziti",
+        "isExtraImport": true,
+        "detail": "proiect_final.analiza_date_client_achiziti",
+        "documentation": {}
+    },
+    {
+        "label": "vanzare",
+        "kind": 5,
+        "importPath": "curs11.elif_vanzari",
+        "description": "curs11.elif_vanzari",
+        "peekOfCode": "vanzare = int(input(\"Introduceti numarul de unitati vandute: \"))\nif vanzare > 100:\n    print(\"Vanzarea a fost foarte reusita!\")\nelif vanzare == 100:\n    print(\"Vanzarea a fost perfecta! S-au vandut exact 100 de unitati.\")\nelif vanzare > 50 and vanzare <= 100:\n    print(\"Vanzarea este solida, dar ganditi-va la actiuni suplimentare.\")\nelse:\n    print(\"Vanzarea a fost slaba. Propuneti actiuni promotionale urgente.\")\n# The above code is a simple program that checks the number of units sold and",
+        "detail": "curs11.elif_vanzari",
+        "documentation": {}
+    },
+    {
+        "label": "meteo",
+        "kind": 5,
+        "importPath": "curs13.ploaie_if_elif_op_log",
+        "description": "curs13.ploaie_if_elif_op_log",
+        "peekOfCode": "meteo = input(\"Cum e vremea? (ploaie/soare): \")\ntemperatura = int(input(\"Care este temperatura? (in grade Celsius): \"))\nvant = input(\"Este vant? (da/nu): \")\nif meteo == \"ploaie\" and temperatura > 20:\n    print(\"Ia-ti o umbrela!\")\n    if (vant == \"da\"):\n        print(\"Afara bate vantul, fi atent!\")\nelif meteo == \"ploaie\" and temperatura <= 20:\n    # This is the else block\n    print(\"Ploua, dar e cald, nu ai nevoie de geaca.\")",
+        "detail": "curs13.ploaie_if_elif_op_log",
+        "documentation": {}
+    },
+    {
+        "label": "temperatura",
+        "kind": 5,
+        "importPath": "curs13.ploaie_if_elif_op_log",
+        "description": "curs13.ploaie_if_elif_op_log",
+        "peekOfCode": "temperatura = int(input(\"Care este temperatura? (in grade Celsius): \"))\nvant = input(\"Este vant? (da/nu): \")\nif meteo == \"ploaie\" and temperatura > 20:\n    print(\"Ia-ti o umbrela!\")\n    if (vant == \"da\"):\n        print(\"Afara bate vantul, fi atent!\")\nelif meteo == \"ploaie\" and temperatura <= 20:\n    # This is the else block\n    print(\"Ploua, dar e cald, nu ai nevoie de geaca.\")\n    if (vant == \"da\"):",
+        "detail": "curs13.ploaie_if_elif_op_log",
+        "documentation": {}
+    },
+    {
+        "label": "vant",
+        "kind": 5,
+        "importPath": "curs13.ploaie_if_elif_op_log",
+        "description": "curs13.ploaie_if_elif_op_log",
+        "peekOfCode": "vant = input(\"Este vant? (da/nu): \")\nif meteo == \"ploaie\" and temperatura > 20:\n    print(\"Ia-ti o umbrela!\")\n    if (vant == \"da\"):\n        print(\"Afara bate vantul, fi atent!\")\nelif meteo == \"ploaie\" and temperatura <= 20:\n    # This is the else block\n    print(\"Ploua, dar e cald, nu ai nevoie de geaca.\")\n    if (vant == \"da\"):\n        print(\"Afara bate vantul, fi atent!\")",
+        "detail": "curs13.ploaie_if_elif_op_log",
+        "documentation": {}
+    },
+    {
+        "label": "meteo",
+        "kind": 5,
+        "importPath": "curs13.ploaie_str_imbric",
+        "description": "curs13.ploaie_str_imbric",
+        "peekOfCode": "meteo = \"ploaie\"\ntemperatura = 20\nvant = True\nif meteo == \"ploaie\":\n    if temperatura > 20:\n        print(\"Ia-ti o umbrela\")\n    else:\n        print(\"Ploua, dar e cald, nu ainevoie de geaca.\")\nelse:\n    if meteo == \"soare\":",
+        "detail": "curs13.ploaie_str_imbric",
+        "documentation": {}
+    },
+    {
+        "label": "temperatura",
+        "kind": 5,
+        "importPath": "curs13.ploaie_str_imbric",
+        "description": "curs13.ploaie_str_imbric",
+        "peekOfCode": "temperatura = 20\nvant = True\nif meteo == \"ploaie\":\n    if temperatura > 20:\n        print(\"Ia-ti o umbrela\")\n    else:\n        print(\"Ploua, dar e cald, nu ainevoie de geaca.\")\nelse:\n    if meteo == \"soare\":\n        if temperatura > 25:",
+        "detail": "curs13.ploaie_str_imbric",
+        "documentation": {}
+    },
+    {
+        "label": "vant",
+        "kind": 5,
+        "importPath": "curs13.ploaie_str_imbric",
+        "description": "curs13.ploaie_str_imbric",
+        "peekOfCode": "vant = True\nif meteo == \"ploaie\":\n    if temperatura > 20:\n        print(\"Ia-ti o umbrela\")\n    else:\n        print(\"Ploua, dar e cald, nu ainevoie de geaca.\")\nelse:\n    if meteo == \"soare\":\n        if temperatura > 25:\n            print(\"Pune-ti ochelari de soare si imbracate ma lejer!\")",
+        "detail": "curs13.ploaie_str_imbric",
+        "documentation": {}
+    },
+    {
+        "label": "suma_achizitiei",
+        "kind": 5,
+        "importPath": "curs13.suma_achiz_if_imbr",
+        "description": "curs13.suma_achiz_if_imbr",
+        "peekOfCode": "suma_achizitiei = float(input(\"Introduceti suma achizitiei: \"))\nif suma_achizitiei < 100:\n    reducere = 0\n    print(\"Fara reducere.\")\nelse:\n    if suma_achizitiei < 500:\n        reducere = 0.05\n        print(\"Reducere de 5%.\")\n    else:\n        if suma_achizitiei < 1000:",
+        "detail": "curs13.suma_achiz_if_imbr",
+        "documentation": {}
+    },
+    {
+        "label": "pret_final",
+        "kind": 5,
+        "importPath": "curs13.suma_achiz_if_imbr",
+        "description": "curs13.suma_achiz_if_imbr",
+        "peekOfCode": "pret_final = suma_achizitiei - (suma_achizitiei * reducere)\nprint(f\"Pretul final este: {pret_final:.2f} lei.\")",
+        "detail": "curs13.suma_achiz_if_imbr",
+        "documentation": {}
+    },
+    {
+        "label": "suma_achizitiei",
+        "kind": 5,
+        "importPath": "curs13.suma_achiz_if_imbr2",
+        "description": "curs13.suma_achiz_if_imbr2",
+        "peekOfCode": "suma_achizitiei = float(input(\"Introduceti suma achizitiei: \"))\nif suma_achizitiei < 100:\n    reducere = 0\n    print(\"Fara reducere.\")\nelse:\n    if suma_achizitiei < 500:\n        reducere = 0.05\n        print(\"Reducere de 5%.\")\n    elif suma_achizitiei < 1000:\n        reducere = 0.1",
+        "detail": "curs13.suma_achiz_if_imbr2",
+        "documentation": {}
+    },
+    {
+        "label": "pret_final",
+        "kind": 5,
+        "importPath": "curs13.suma_achiz_if_imbr2",
+        "description": "curs13.suma_achiz_if_imbr2",
+        "peekOfCode": "pret_final = suma_achizitiei - (suma_achizitiei * reducere)\nprint(f\"Pretul final este: {pret_final:.2f} lei.\")",
+        "detail": "curs13.suma_achiz_if_imbr2",
+        "documentation": {}
+    },
+    {
+        "label": "suma_achizitiei",
+        "kind": 5,
+        "importPath": "curs13.suma_achiz_if_imbr3",
+        "description": "curs13.suma_achiz_if_imbr3",
+        "peekOfCode": "suma_achizitiei = float(input(\"Introduceti suma achizitiei: \"))\nclient = input(\"Client sau membru al programului de loialitate: \")\nif client == \"client\":\n    if suma_achizitiei < 100:\n        reducere = 0\n        print(\"Fara reducere.\")\n    else:\n        if suma_achizitiei < 500:\n            reducere = 0.05\n            print(\"Reducere de 5%.\")",
+        "detail": "curs13.suma_achiz_if_imbr3",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "curs13.suma_achiz_if_imbr3",
+        "description": "curs13.suma_achiz_if_imbr3",
+        "peekOfCode": "client = input(\"Client sau membru al programului de loialitate: \")\nif client == \"client\":\n    if suma_achizitiei < 100:\n        reducere = 0\n        print(\"Fara reducere.\")\n    else:\n        if suma_achizitiei < 500:\n            reducere = 0.05\n            print(\"Reducere de 5%.\")\n        else:",
+        "detail": "curs13.suma_achiz_if_imbr3",
+        "documentation": {}
+    },
+    {
+        "label": "pret_final",
+        "kind": 5,
+        "importPath": "curs13.suma_achiz_if_imbr3",
+        "description": "curs13.suma_achiz_if_imbr3",
+        "peekOfCode": "pret_final = suma_achizitiei - (suma_achizitiei * reducere)\nprint(f\"Pretul final este: {pret_final:.2f} lei.\")",
+        "detail": "curs13.suma_achiz_if_imbr3",
+        "documentation": {}
+    },
+    {
+        "label": "stare",
+        "kind": 5,
+        "importPath": "curs14.operator_ternar",
+        "description": "curs14.operator_ternar",
+        "peekOfCode": "stare = \"membru\"\nsuma_achizitiei = float(input(\"Introduceti suma achizitiei: \"))\nreducere = 10 if stare == \"membru\" else 0\nprint(f\"Reducerea este: {reducere}\")\n# In acest exemplu, am folosit operatorul ternar pentru a determina reducerea \n# in functie de stare.\n# Operatorul ternar este o constructie care permite evaluarea unei expresii in \n# functie de o conditie, intr-o singura linie de cod.",
+        "detail": "curs14.operator_ternar",
+        "documentation": {}
+    },
+    {
+        "label": "suma_achizitiei",
+        "kind": 5,
+        "importPath": "curs14.operator_ternar",
+        "description": "curs14.operator_ternar",
+        "peekOfCode": "suma_achizitiei = float(input(\"Introduceti suma achizitiei: \"))\nreducere = 10 if stare == \"membru\" else 0\nprint(f\"Reducerea este: {reducere}\")\n# In acest exemplu, am folosit operatorul ternar pentru a determina reducerea \n# in functie de stare.\n# Operatorul ternar este o constructie care permite evaluarea unei expresii in \n# functie de o conditie, intr-o singura linie de cod.",
+        "detail": "curs14.operator_ternar",
+        "documentation": {}
+    },
+    {
+        "label": "reducere",
+        "kind": 5,
+        "importPath": "curs14.operator_ternar",
+        "description": "curs14.operator_ternar",
+        "peekOfCode": "reducere = 10 if stare == \"membru\" else 0\nprint(f\"Reducerea este: {reducere}\")\n# In acest exemplu, am folosit operatorul ternar pentru a determina reducerea \n# in functie de stare.\n# Operatorul ternar este o constructie care permite evaluarea unei expresii in \n# functie de o conditie, intr-o singura linie de cod.",
+        "detail": "curs14.operator_ternar",
+        "documentation": {}
+    },
+    {
+        "label": "counter",
+        "kind": 5,
+        "importPath": "curs15.while_loop",
+        "description": "curs15.while_loop",
+        "peekOfCode": "counter = 0\nwhile counter < 9:\n    print(\"Counter is:\", counter)\n    counter += 1\nprint(\"Loop finished\")\n# The above code will print the value of counter from 1 to 10",
+        "detail": "curs15.while_loop",
+        "documentation": {}
+    },
+    {
+        "label": "baterie",
+        "kind": 5,
+        "importPath": "curs15.while_loop_charger",
+        "description": "curs15.while_loop_charger",
+        "peekOfCode": "baterie = 50\nwhile baterie < 100:\n    print(\"Baterie: \", baterie)\n    print(\"Charger connected\")\n    baterie += 1\nprint(\"Baterie: \", baterie)\nprint(\"Charger disconnected\")",
+        "detail": "curs15.while_loop_charger",
+        "documentation": {}
+    },
+    {
+        "label": "zile_ramase",
+        "kind": 5,
+        "importPath": "curs15.while_loop_zile_ramase",
+        "description": "curs15.while_loop_zile_ramase",
+        "peekOfCode": "zile_ramase = 7\nwhile zile_ramase > 0:\n    print(\"Mai sunt\", zile_ramase, \"zile ramase pana la Black Friday\")\n    # print(\"Mai sunt\", zile_ramase, \"zile ramase pana la Black Friday\")\n    zile_ramase -= 1\nprint(\"Azi este Black Friday\")\n# print(\"Azi este Black Friday\")\n# The above code will print the number of days remaining until Black Friday\n# The while loop will continue until zile_ramase is no longer greater than 0\n# The print statement inside the loop will print the number of days remaining",
+        "detail": "curs15.while_loop_zile_ramase",
+        "documentation": {}
+    },
+    {
+        "label": "nr_articole_ramase",
+        "kind": 5,
+        "importPath": "curs16.monitorizare_comenzi_while",
+        "description": "curs16.monitorizare_comenzi_while",
+        "peekOfCode": "nr_articole_ramase = 50\ntimp_livrare = 48\nwhile nr_articole_ramase > 0 and timp_livrare > 0:\n    if nr_articole_ramase >= 10:\n        print(f\"Mai sunt {nr_articole_ramase} articole de livrat.\")\n        nr_articole_ramase -= 1\n    elif nr_articole_ramase < 10:\n        print(\"Avertisment: Nivel critic scazut al stocului!\")\n        print(f\"Mai sunt {nr_articole_ramase} articole de livrat.\")\n        nr_articole_ramase -= 1",
+        "detail": "curs16.monitorizare_comenzi_while",
+        "documentation": {}
+    },
+    {
+        "label": "timp_livrare",
+        "kind": 5,
+        "importPath": "curs16.monitorizare_comenzi_while",
+        "description": "curs16.monitorizare_comenzi_while",
+        "peekOfCode": "timp_livrare = 48\nwhile nr_articole_ramase > 0 and timp_livrare > 0:\n    if nr_articole_ramase >= 10:\n        print(f\"Mai sunt {nr_articole_ramase} articole de livrat.\")\n        nr_articole_ramase -= 1\n    elif nr_articole_ramase < 10:\n        print(\"Avertisment: Nivel critic scazut al stocului!\")\n        print(f\"Mai sunt {nr_articole_ramase} articole de livrat.\")\n        nr_articole_ramase -= 1\n    else:",
+        "detail": "curs16.monitorizare_comenzi_while",
+        "documentation": {}
+    },
+    {
+        "label": "campaign_days",
+        "kind": 5,
+        "importPath": "curs16.promotion_while_loop",
+        "description": "curs16.promotion_while_loop",
+        "peekOfCode": "campaign_days = 0\nmax_days = 30\ncampaign_terminated = False\nprint(\"Welcome to the promotion campaign!\")\nwhile campaign_days < max_days and not campaign_terminated:\n    campaign_days += 1\n    sales = int(input(f\"Enter the sales for day {campaign_days}: \"))\n    budget = int(input(f\"Enter the budget for day {campaign_days}: \"))\n    if sales >= 50 and sales <= 100 and budget < 1000:\n        print(\"This was a good day!\")",
+        "detail": "curs16.promotion_while_loop",
+        "documentation": {}
+    },
+    {
+        "label": "max_days",
+        "kind": 5,
+        "importPath": "curs16.promotion_while_loop",
+        "description": "curs16.promotion_while_loop",
+        "peekOfCode": "max_days = 30\ncampaign_terminated = False\nprint(\"Welcome to the promotion campaign!\")\nwhile campaign_days < max_days and not campaign_terminated:\n    campaign_days += 1\n    sales = int(input(f\"Enter the sales for day {campaign_days}: \"))\n    budget = int(input(f\"Enter the budget for day {campaign_days}: \"))\n    if sales >= 50 and sales <= 100 and budget < 1000:\n        print(\"This was a good day!\")\n    elif sales > 100 and budget > 2000:",
+        "detail": "curs16.promotion_while_loop",
+        "documentation": {}
+    },
+    {
+        "label": "campaign_terminated",
+        "kind": 5,
+        "importPath": "curs16.promotion_while_loop",
+        "description": "curs16.promotion_while_loop",
+        "peekOfCode": "campaign_terminated = False\nprint(\"Welcome to the promotion campaign!\")\nwhile campaign_days < max_days and not campaign_terminated:\n    campaign_days += 1\n    sales = int(input(f\"Enter the sales for day {campaign_days}: \"))\n    budget = int(input(f\"Enter the budget for day {campaign_days}: \"))\n    if sales >= 50 and sales <= 100 and budget < 1000:\n        print(\"This was a good day!\")\n    elif sales > 100 and budget > 2000:\n        print(\"Warning!\")",
+        "detail": "curs16.promotion_while_loop",
+        "documentation": {}
+    },
+    {
+        "label": "max_cupoane",
+        "kind": 5,
+        "importPath": "curs16.while_3_days_reducere",
+        "description": "curs16.while_3_days_reducere",
+        "peekOfCode": "max_cupoane = 100\ndurata_timp = 3\n#   Starea curenta\ncupoane_utilizate = 0\nzilele_ramase = durata_timp\nwhile cupoane_utilizate < max_cupoane or zilele_ramase > 0:\n    #   Cererea de cupoane\n    cupoane = int(input(f\"Introduceti numarul de cupoane pentru ziua {durata_timp - zilele_ramase + 1}: \"))\n    #   Verificarea cererii\n    if cupoane > max_cupoane:",
+        "detail": "curs16.while_3_days_reducere",
+        "documentation": {}
+    },
+    {
+        "label": "durata_timp",
+        "kind": 5,
+        "importPath": "curs16.while_3_days_reducere",
+        "description": "curs16.while_3_days_reducere",
+        "peekOfCode": "durata_timp = 3\n#   Starea curenta\ncupoane_utilizate = 0\nzilele_ramase = durata_timp\nwhile cupoane_utilizate < max_cupoane or zilele_ramase > 0:\n    #   Cererea de cupoane\n    cupoane = int(input(f\"Introduceti numarul de cupoane pentru ziua {durata_timp - zilele_ramase + 1}: \"))\n    #   Verificarea cererii\n    if cupoane > max_cupoane:\n        print(\"Cererea depaseste limita maxima de cupoane!\")",
+        "detail": "curs16.while_3_days_reducere",
+        "documentation": {}
+    },
+    {
+        "label": "cupoane_utilizate",
+        "kind": 5,
+        "importPath": "curs16.while_3_days_reducere",
+        "description": "curs16.while_3_days_reducere",
+        "peekOfCode": "cupoane_utilizate = 0\nzilele_ramase = durata_timp\nwhile cupoane_utilizate < max_cupoane or zilele_ramase > 0:\n    #   Cererea de cupoane\n    cupoane = int(input(f\"Introduceti numarul de cupoane pentru ziua {durata_timp - zilele_ramase + 1}: \"))\n    #   Verificarea cererii\n    if cupoane > max_cupoane:\n        print(\"Cererea depaseste limita maxima de cupoane!\")\n        continue\n    #   Actualizarea starii",
+        "detail": "curs16.while_3_days_reducere",
+        "documentation": {}
+    },
+    {
+        "label": "zilele_ramase",
+        "kind": 5,
+        "importPath": "curs16.while_3_days_reducere",
+        "description": "curs16.while_3_days_reducere",
+        "peekOfCode": "zilele_ramase = durata_timp\nwhile cupoane_utilizate < max_cupoane or zilele_ramase > 0:\n    #   Cererea de cupoane\n    cupoane = int(input(f\"Introduceti numarul de cupoane pentru ziua {durata_timp - zilele_ramase + 1}: \"))\n    #   Verificarea cererii\n    if cupoane > max_cupoane:\n        print(\"Cererea depaseste limita maxima de cupoane!\")\n        continue\n    #   Actualizarea starii\n    cupoane_utilizate += cupoane",
+        "detail": "curs16.while_3_days_reducere",
+        "documentation": {}
+    },
+    {
+        "label": "max_cupoane",
+        "kind": 5,
+        "importPath": "curs16.while_7_days_reducere",
+        "description": "curs16.while_7_days_reducere",
+        "peekOfCode": "max_cupoane = 100\ndurata_timp = 7\n#   Starea curenta\ncupoane_utilizate = 0\nzilele_ramase = durata_timp\nwhile cupoane_utilizate < max_cupoane and zilele_ramase > 0:\n    #   Cererea de cupoane\n    cupoane = int(input(f\"Introduceti numarul de cupoane pentru ziua {durata_timp - zilele_ramase + 1}: \"))\n    #   Verificarea cererii\n    if cupoane > max_cupoane:",
+        "detail": "curs16.while_7_days_reducere",
+        "documentation": {}
+    },
+    {
+        "label": "durata_timp",
+        "kind": 5,
+        "importPath": "curs16.while_7_days_reducere",
+        "description": "curs16.while_7_days_reducere",
+        "peekOfCode": "durata_timp = 7\n#   Starea curenta\ncupoane_utilizate = 0\nzilele_ramase = durata_timp\nwhile cupoane_utilizate < max_cupoane and zilele_ramase > 0:\n    #   Cererea de cupoane\n    cupoane = int(input(f\"Introduceti numarul de cupoane pentru ziua {durata_timp - zilele_ramase + 1}: \"))\n    #   Verificarea cererii\n    if cupoane > max_cupoane:\n        print(\"Cererea depaseste limita maxima de cupoane!\")",
+        "detail": "curs16.while_7_days_reducere",
+        "documentation": {}
+    },
+    {
+        "label": "cupoane_utilizate",
+        "kind": 5,
+        "importPath": "curs16.while_7_days_reducere",
+        "description": "curs16.while_7_days_reducere",
+        "peekOfCode": "cupoane_utilizate = 0\nzilele_ramase = durata_timp\nwhile cupoane_utilizate < max_cupoane and zilele_ramase > 0:\n    #   Cererea de cupoane\n    cupoane = int(input(f\"Introduceti numarul de cupoane pentru ziua {durata_timp - zilele_ramase + 1}: \"))\n    #   Verificarea cererii\n    if cupoane > max_cupoane:\n        print(\"Cererea depaseste limita maxima de cupoane!\")\n        continue\n    #   Actualizarea starii",
+        "detail": "curs16.while_7_days_reducere",
+        "documentation": {}
+    },
+    {
+        "label": "zilele_ramase",
+        "kind": 5,
+        "importPath": "curs16.while_7_days_reducere",
+        "description": "curs16.while_7_days_reducere",
+        "peekOfCode": "zilele_ramase = durata_timp\nwhile cupoane_utilizate < max_cupoane and zilele_ramase > 0:\n    #   Cererea de cupoane\n    cupoane = int(input(f\"Introduceti numarul de cupoane pentru ziua {durata_timp - zilele_ramase + 1}: \"))\n    #   Verificarea cererii\n    if cupoane > max_cupoane:\n        print(\"Cererea depaseste limita maxima de cupoane!\")\n        continue\n    #   Actualizarea starii\n    cupoane_utilizate += cupoane",
+        "detail": "curs16.while_7_days_reducere",
+        "documentation": {}
+    },
+    {
+        "label": "counter",
+        "kind": 5,
+        "importPath": "curs16.while_loop2",
+        "description": "curs16.while_loop2",
+        "peekOfCode": "counter = 1\nwhile counter <= 10 or counter % 5 < 3:\n    print(\"Counter is:\", counter)\n    counter += 1\nprint(\"Loop finished\")",
+        "detail": "curs16.while_loop2",
+        "documentation": {}
+    },
+    {
+        "label": "cene",
+        "kind": 5,
+        "importPath": "curs17.for_loop",
+        "description": "curs17.for_loop",
+        "peekOfCode": "cene = [340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470]\nfor i in range(len(cene)):\n    if cene[i] > 400:\n        print(f\"cene[{i}] = {cene[i]}\")  # Print the index and value of cene\n    else:\n        print(f\"cene[{i}] = {cene[i]} is not greater than 400\")  \n        # Print the index and value of cene\nprint(range(len(cene)))\nprint((len(cene)))\nprint(f\"The length of cene is: {len(cene)}\")    ",
+        "detail": "curs17.for_loop",
+        "documentation": {}
+    },
+    {
+        "label": "num_days",
+        "kind": 5,
+        "importPath": "curs17.for_range",
+        "description": "curs17.for_range",
+        "peekOfCode": "num_days = 30\nfor day in range(1, num_days+1, 5):\n    print(f\"Day {day}:\")\n    print(\"  Breakfast: Oatmeal\")\n    print(\"  Lunch: Salad\")\n    print(\"  Dinner: Grilled Chicken\")\nprint(\"Bye!\")\nfor day in range(1, num_days+1, 6):\n    print(f\"Day {day}, sending promo mail......\")\nprint(\"Bye!\")",
+        "detail": "curs17.for_range",
+        "documentation": {}
+    },
+    {
+        "label": "clienti",
+        "kind": 5,
+        "importPath": "curs18.filtrare_for_clienti_loiali",
+        "description": "curs18.filtrare_for_clienti_loiali",
+        "peekOfCode": "clienti = [\"Marco\", \"Giovanni\", \"Magda\", \"Luca\", \"Alessandro\", \"Francesco\", \"Anna\", \"Leva\", \"Tom\"]\nclienti_loiali = [\"Marco\", \"Giovanni\", \"Tom\", \"Alessandro\"]\nfor client in clienti:\n    if client not in clienti_loiali:\n        print(f\"Stimate {client}, avem o oferta speciala pentru dumneavoastra pentru a deveni membru loial!\")\n    else:\n        print(f\"Stimate {client}, va multumim ca sunteti client loial, aveti reducere 25%!\")\nprint(\"Va multumim pentru comanda!\")",
+        "detail": "curs18.filtrare_for_clienti_loiali",
+        "documentation": {}
+    },
+    {
+        "label": "clienti_loiali",
+        "kind": 5,
+        "importPath": "curs18.filtrare_for_clienti_loiali",
+        "description": "curs18.filtrare_for_clienti_loiali",
+        "peekOfCode": "clienti_loiali = [\"Marco\", \"Giovanni\", \"Tom\", \"Alessandro\"]\nfor client in clienti:\n    if client not in clienti_loiali:\n        print(f\"Stimate {client}, avem o oferta speciala pentru dumneavoastra pentru a deveni membru loial!\")\n    else:\n        print(f\"Stimate {client}, va multumim ca sunteti client loial, aveti reducere 25%!\")\nprint(\"Va multumim pentru comanda!\")",
+        "detail": "curs18.filtrare_for_clienti_loiali",
+        "documentation": {}
+    },
+    {
+        "label": "all_member",
+        "kind": 5,
+        "importPath": "curs18.for_loyality_member",
+        "description": "curs18.for_loyality_member",
+        "peekOfCode": "all_member = [\"Alexander\", \"John\", \"Michael\", \"Sarah\", \"Jessica\", \"Emily\", \n              \"David\", \"Sophia\", \"Daniel\", \"Olivia\"]\nloyalty_member = [\"John\", \"Sarah\", \"Jessica\", \"Emily\", \"David\", \"Sophia\"]\nfor member in all_member:\n    if member not in loyalty_member:\n        print(f\"{member} is not a loyalty member.\")\n    else:\n        print(f\"{member} is a loyalty member.\")",
+        "detail": "curs18.for_loyality_member",
+        "documentation": {}
+    },
+    {
+        "label": "loyalty_member",
+        "kind": 5,
+        "importPath": "curs18.for_loyality_member",
+        "description": "curs18.for_loyality_member",
+        "peekOfCode": "loyalty_member = [\"John\", \"Sarah\", \"Jessica\", \"Emily\", \"David\", \"Sophia\"]\nfor member in all_member:\n    if member not in loyalty_member:\n        print(f\"{member} is not a loyalty member.\")\n    else:\n        print(f\"{member} is a loyalty member.\")",
+        "detail": "curs18.for_loyality_member",
+        "documentation": {}
+    },
+    {
+        "label": "daily_sales",
+        "kind": 5,
+        "importPath": "curs19.daily_sales_brreak_continue",
+        "description": "curs19.daily_sales_brreak_continue",
+        "peekOfCode": "daily_sales = [100, 200, 7887, 8990, 300, 678, 400, 1900, 500]\ntotal_sales = 0\nfor sale in daily_sales:\n    if sale < 200:\n        print(\"Sale is too low, skipping: \", sale)\n        continue\n    elif sale > 5000:\n        print(\"Suspicious! Sale is too high: \", sale, \". Stopping processing....\")\n        break\n    total_sales += sale",
+        "detail": "curs19.daily_sales_brreak_continue",
+        "documentation": {}
+    },
+    {
+        "label": "total_sales",
+        "kind": 5,
+        "importPath": "curs19.daily_sales_brreak_continue",
+        "description": "curs19.daily_sales_brreak_continue",
+        "peekOfCode": "total_sales = 0\nfor sale in daily_sales:\n    if sale < 200:\n        print(\"Sale is too low, skipping: \", sale)\n        continue\n    elif sale > 5000:\n        print(\"Suspicious! Sale is too high: \", sale, \". Stopping processing....\")\n        break\n    total_sales += sale\nprint(\"Total sales:\", total_sales)",
+        "detail": "curs19.daily_sales_brreak_continue",
+        "documentation": {}
+    },
+    {
+        "label": "total_amount",
+        "kind": 2,
+        "importPath": "curs20.cheltuieli_saptamanale_vip",
+        "description": "curs20.cheltuieli_saptamanale_vip",
+        "peekOfCode": "def total_amount(cheltuieli):\n    amount = 0\n    for cheltuiala in cheltuieli:\n        amount += cheltuiala\n    if amount > 2500:\n        return True\n    else:\n        return False\nsale = [230, 200, 230, 300]\nstatus_vip = total_amount(sale)",
+        "detail": "curs20.cheltuieli_saptamanale_vip",
+        "documentation": {}
+    },
+    {
+        "label": "sale",
+        "kind": 5,
+        "importPath": "curs20.cheltuieli_saptamanale_vip",
+        "description": "curs20.cheltuieli_saptamanale_vip",
+        "peekOfCode": "sale = [230, 200, 230, 300]\nstatus_vip = total_amount(sale)\nprint(f\"Statusul clientului este VIP: {status_vip}\")",
+        "detail": "curs20.cheltuieli_saptamanale_vip",
+        "documentation": {}
+    },
+    {
+        "label": "status_vip",
+        "kind": 5,
+        "importPath": "curs20.cheltuieli_saptamanale_vip",
+        "description": "curs20.cheltuieli_saptamanale_vip",
+        "peekOfCode": "status_vip = total_amount(sale)\nprint(f\"Statusul clientului este VIP: {status_vip}\")",
+        "detail": "curs20.cheltuieli_saptamanale_vip",
+        "documentation": {}
+    },
+    {
+        "label": "total_amount",
+        "kind": 2,
+        "importPath": "curs20.cheltuieli_saptamanale_vip2",
+        "description": "curs20.cheltuieli_saptamanale_vip2",
+        "peekOfCode": "def total_amount(cheltuieli):\n    amount = 0\n    for cheltuiala in cheltuieli:\n        amount += cheltuiala\n    if amount > 12500:\n        return \"Diamond\"\n    elif amount > 10000:\n        return \"Platinum\"\n    elif amount > 7500:\n        return \"Gold\"",
+        "detail": "curs20.cheltuieli_saptamanale_vip2",
+        "documentation": {}
+    },
+    {
+        "label": "sale",
+        "kind": 5,
+        "importPath": "curs20.cheltuieli_saptamanale_vip2",
+        "description": "curs20.cheltuieli_saptamanale_vip2",
+        "peekOfCode": "sale = [23000, 200, 230, 300]\nstatus_vip = total_amount(sale)\nprint(f\"Statusul clientului este VIP: {status_vip}\")",
+        "detail": "curs20.cheltuieli_saptamanale_vip2",
+        "documentation": {}
+    },
+    {
+        "label": "status_vip",
+        "kind": 5,
+        "importPath": "curs20.cheltuieli_saptamanale_vip2",
+        "description": "curs20.cheltuieli_saptamanale_vip2",
+        "peekOfCode": "status_vip = total_amount(sale)\nprint(f\"Statusul clientului este VIP: {status_vip}\")",
+        "detail": "curs20.cheltuieli_saptamanale_vip2",
+        "documentation": {}
+    },
+    {
+        "label": "total_price",
+        "kind": 2,
+        "importPath": "curs20.discount_vip_customer",
+        "description": "curs20.discount_vip_customer",
+        "peekOfCode": "def total_price(price, procent_discount):\n    price_product = price - price * procent_discount / 100\n    return price_product\ndef check_vip_status(cheltuieli):\n    amount = 0\n    for cheltuiala in cheltuieli:\n        amount += cheltuiala\n    if amount > 12500:\n        return \"Diamond\"\n    elif amount > 10000:",
+        "detail": "curs20.discount_vip_customer",
+        "documentation": {}
+    },
+    {
+        "label": "check_vip_status",
+        "kind": 2,
+        "importPath": "curs20.discount_vip_customer",
+        "description": "curs20.discount_vip_customer",
+        "peekOfCode": "def check_vip_status(cheltuieli):\n    amount = 0\n    for cheltuiala in cheltuieli:\n        amount += cheltuiala\n    if amount > 12500:\n        return \"Diamond\"\n    elif amount > 10000:\n        return \"Platinum\"\n    elif amount > 7500:\n        return \"Gold\"",
+        "detail": "curs20.discount_vip_customer",
+        "documentation": {}
+    },
+    {
+        "label": "sales",
+        "kind": 5,
+        "importPath": "curs20.discount_vip_customer",
+        "description": "curs20.discount_vip_customer",
+        "peekOfCode": "sales = [102, 900, 1020, 2002, 3300, 1550, 250]\nstatus_vip = check_vip_status(sales)\nprice_product = float(input(\"Introduceti pretul produsului: \"))\nif status_vip == True:\n    discount_price_vip = 30\n    price_vip = total_price(price_product, discount_price_vip)\n    print(f\"Pretul produsul pentru clientul VIP a fost redus de la {price_product} la {price_vip}\")\nelse:\n    discount_price_regular = 5\n    price_regular = total_price(price_product, discount_price_regular)",
+        "detail": "curs20.discount_vip_customer",
+        "documentation": {}
+    },
+    {
+        "label": "status_vip",
+        "kind": 5,
+        "importPath": "curs20.discount_vip_customer",
+        "description": "curs20.discount_vip_customer",
+        "peekOfCode": "status_vip = check_vip_status(sales)\nprice_product = float(input(\"Introduceti pretul produsului: \"))\nif status_vip == True:\n    discount_price_vip = 30\n    price_vip = total_price(price_product, discount_price_vip)\n    print(f\"Pretul produsul pentru clientul VIP a fost redus de la {price_product} la {price_vip}\")\nelse:\n    discount_price_regular = 5\n    price_regular = total_price(price_product, discount_price_regular)\n    print(f\"Pretul produsul pentru client a fost redus de la {price_product} la {price_regular}\")",
+        "detail": "curs20.discount_vip_customer",
+        "documentation": {}
+    },
+    {
+        "label": "price_product",
+        "kind": 5,
+        "importPath": "curs20.discount_vip_customer",
+        "description": "curs20.discount_vip_customer",
+        "peekOfCode": "price_product = float(input(\"Introduceti pretul produsului: \"))\nif status_vip == True:\n    discount_price_vip = 30\n    price_vip = total_price(price_product, discount_price_vip)\n    print(f\"Pretul produsul pentru clientul VIP a fost redus de la {price_product} la {price_vip}\")\nelse:\n    discount_price_regular = 5\n    price_regular = total_price(price_product, discount_price_regular)\n    print(f\"Pretul produsul pentru client a fost redus de la {price_product} la {price_regular}\")",
+        "detail": "curs20.discount_vip_customer",
+        "documentation": {}
+    },
+    {
+        "label": "total_price",
+        "kind": 2,
+        "importPath": "curs20.discount_vip_customer2",
+        "description": "curs20.discount_vip_customer2",
+        "peekOfCode": "def total_price(price, procent_discount):\n    price_product = price - price * procent_discount / 100\n    return price_product\ndef check_vip_status(cheltuieli):\n    amount = 0\n    for cheltuiala in cheltuieli:\n        amount += cheltuiala\n    if amount > 12500:\n        return \"Diamond\"\n    elif amount > 10000:",
+        "detail": "curs20.discount_vip_customer2",
+        "documentation": {}
+    },
+    {
+        "label": "check_vip_status",
+        "kind": 2,
+        "importPath": "curs20.discount_vip_customer2",
+        "description": "curs20.discount_vip_customer2",
+        "peekOfCode": "def check_vip_status(cheltuieli):\n    amount = 0\n    for cheltuiala in cheltuieli:\n        amount += cheltuiala\n    if amount > 12500:\n        return \"Diamond\"\n    elif amount > 10000:\n        return \"Platinum\"\n    elif amount > 7500:\n        return \"Gold\"",
+        "detail": "curs20.discount_vip_customer2",
+        "documentation": {}
+    },
+    {
+        "label": "sales",
+        "kind": 5,
+        "importPath": "curs20.discount_vip_customer2",
+        "description": "curs20.discount_vip_customer2",
+        "peekOfCode": "sales = [102, 900, 1020, 2002, 330, 155, 250]\nstatus_vip = check_vip_status(sales)\nprice_product = float(input(\"Introduceti pretul produsului: \"))\nif status_vip == \"Diamond\":\n    discount_price_vip = 30\n    price_vip = total_price(price_product, discount_price_vip)\n    print(f\"Pretul produsul pentru clientul VIP {status_vip} a fost redus de la {price_product} la {price_vip}\")\nelif status_vip == \"Platinum\":\n    discount_price_vip = 25\n    price_vip = total_price(price_product, discount_price_vip)",
+        "detail": "curs20.discount_vip_customer2",
+        "documentation": {}
+    },
+    {
+        "label": "status_vip",
+        "kind": 5,
+        "importPath": "curs20.discount_vip_customer2",
+        "description": "curs20.discount_vip_customer2",
+        "peekOfCode": "status_vip = check_vip_status(sales)\nprice_product = float(input(\"Introduceti pretul produsului: \"))\nif status_vip == \"Diamond\":\n    discount_price_vip = 30\n    price_vip = total_price(price_product, discount_price_vip)\n    print(f\"Pretul produsul pentru clientul VIP {status_vip} a fost redus de la {price_product} la {price_vip}\")\nelif status_vip == \"Platinum\":\n    discount_price_vip = 25\n    price_vip = total_price(price_product, discount_price_vip)\n    print(f\"Pretul produsul pentru clientul VIP {status_vip} a fost redus de la {price_product} la {price_vip}\")",
+        "detail": "curs20.discount_vip_customer2",
+        "documentation": {}
+    },
+    {
+        "label": "price_product",
+        "kind": 5,
+        "importPath": "curs20.discount_vip_customer2",
+        "description": "curs20.discount_vip_customer2",
+        "peekOfCode": "price_product = float(input(\"Introduceti pretul produsului: \"))\nif status_vip == \"Diamond\":\n    discount_price_vip = 30\n    price_vip = total_price(price_product, discount_price_vip)\n    print(f\"Pretul produsul pentru clientul VIP {status_vip} a fost redus de la {price_product} la {price_vip}\")\nelif status_vip == \"Platinum\":\n    discount_price_vip = 25\n    price_vip = total_price(price_product, discount_price_vip)\n    print(f\"Pretul produsul pentru clientul VIP {status_vip} a fost redus de la {price_product} la {price_vip}\")\nelif status_vip == \"Gold\":",
+        "detail": "curs20.discount_vip_customer2",
+        "documentation": {}
+    },
+    {
+        "label": "decizie_de_imbracare",
+        "kind": 2,
+        "importPath": "curs20.functie_decizie_imbracare",
+        "description": "curs20.functie_decizie_imbracare",
+        "peekOfCode": "def decizie_de_imbracare(temperatura, umiditate, vant):\n    if temperatura < 10 and umiditate > 70:\n        return \"Trebuie sa te imbraci mai gros!\"\n    elif temperatura < 15 and vant > 20:\n        return \"Trebuie sa te imbraci mai gros!\"\n    elif temperatura < 20 and umiditate > 80:\n        return \"Trebuie sa te imbraci mai gros!\"\n    else:\n        return \"Nu trebuie sa te imbraci mai gros!\" \n# Exemplu de utilizare",
+        "detail": "curs20.functie_decizie_imbracare",
+        "documentation": {}
+    },
+    {
+        "label": "decizie_de_imbracare",
+        "kind": 2,
+        "importPath": "curs20.functie_decizie_imbracare2",
+        "description": "curs20.functie_decizie_imbracare2",
+        "peekOfCode": "def decizie_de_imbracare(meteo):\n    if meteo == \"ploaie\":\n        return \"Ia-ti  umbrela!\"\n    elif meteo == \"soare\":\n        return \"Pune-ti ochelari de soare!\"\n    else:\n        return \"Este inorat, dar nu ai nevoie de nimic special!\"\n# Exemplu de utilizare\nif __name__ == \"__main__\":\n    meteo = \"ploaie\"",
+        "detail": "curs20.functie_decizie_imbracare2",
+        "documentation": {}
+    },
+    {
+        "label": "conditii_vreme",
+        "kind": 5,
+        "importPath": "curs20.functie_decizie_imbracare2",
+        "description": "curs20.functie_decizie_imbracare2",
+        "peekOfCode": "conditii_vreme = [\"ploaie\", \"soare\", \"innorat\"]\nfor meteo in conditii_vreme:\n    mesaj = decizie_de_imbracare(meteo)\n    print(f\"Pentru vremea '{meteo}', mesajul este: {mesaj}\")",
+        "detail": "curs20.functie_decizie_imbracare2",
+        "documentation": {}
+    },
+    {
+        "label": "decizie_incaltaminte",
+        "kind": 2,
+        "importPath": "curs20.functie_decizie_incaltaminte",
+        "description": "curs20.functie_decizie_incaltaminte",
+        "peekOfCode": "def decizie_incaltaminte(meteo, temperatura, umiditate, vant):\n    if meteo == \"ploaie\" or umiditate > 70:\n        return \"Trebuie sa porti incaltaminte impermeabila!\"\n    elif temperatura < 10 and vant > 20:\n        return \"Trebuie sa porti incaltaminte calduroasa!\"\n    elif temperatura < 15 and umiditate > 80:\n        return \"Trebuie sa porti incaltaminte calduroasa!\"\n    else:\n        return \"Nu trebuie sa porti incaltaminte speciala!\"\n# Exemplu de utilizare",
+        "detail": "curs20.functie_decizie_incaltaminte",
+        "documentation": {}
+    },
+    {
+        "label": "calculed_total_venit",
+        "kind": 2,
+        "importPath": "curs20.functie_venit_total",
+        "description": "curs20.functie_venit_total",
+        "peekOfCode": "def calculed_total_venit(venituri):\n    \"\"\"\n    Calculeaza totalul veniturilor dintr-o lista de venituri.\n    :param venituri: Lista de venituri\n    :return: Totalul veniturilor\n    \"\"\"\n    total = 0\n    for venit in venituri:\n        total += venit\n    return total",
+        "detail": "curs20.functie_venit_total",
+        "documentation": {}
+    },
+    {
+        "label": "venituri",
+        "kind": 5,
+        "importPath": "curs20.functie_venit_total",
+        "description": "curs20.functie_venit_total",
+        "peekOfCode": "venituri = [23200, 15000, 12000, 18000, 20000]\ntotal_venit = calculed_total_venit(venituri)\nprint(f\"Total venit: {total_venit}\")",
+        "detail": "curs20.functie_venit_total",
+        "documentation": {}
+    },
+    {
+        "label": "total_venit",
+        "kind": 5,
+        "importPath": "curs20.functie_venit_total",
+        "description": "curs20.functie_venit_total",
+        "peekOfCode": "total_venit = calculed_total_venit(venituri)\nprint(f\"Total venit: {total_venit}\")",
+        "detail": "curs20.functie_venit_total",
+        "documentation": {}
+    },
+    {
+        "label": "total_price",
+        "kind": 2,
+        "importPath": "curs20.price_discount_product",
+        "description": "curs20.price_discount_product",
+        "peekOfCode": "def total_price(price, procent_discount):\n    price_product = price - price * procent_discount / 100\n    return price_product\nprice_product_demo = 1000\nprocent_discount_demo = 40\nmesaj = total_price(price_product_demo, procent_discount_demo)\nprint(f\"Pretul produsului aflat la reducere este: {mesaj}\")\nlist_product = [\"phone\", \"smartTV\", \"headpods\", \"router\", \"magasin\"]\nlist_phone_price = [10021, 2232, 2323, 1112, 9000, 1000]\nlist_smartTV_price = [1231, 1231, 2322, 3242, 3222, 3243]",
+        "detail": "curs20.price_discount_product",
+        "documentation": {}
+    },
+    {
+        "label": "price_product_demo",
+        "kind": 5,
+        "importPath": "curs20.price_discount_product",
+        "description": "curs20.price_discount_product",
+        "peekOfCode": "price_product_demo = 1000\nprocent_discount_demo = 40\nmesaj = total_price(price_product_demo, procent_discount_demo)\nprint(f\"Pretul produsului aflat la reducere este: {mesaj}\")\nlist_product = [\"phone\", \"smartTV\", \"headpods\", \"router\", \"magasin\"]\nlist_phone_price = [10021, 2232, 2323, 1112, 9000, 1000]\nlist_smartTV_price = [1231, 1231, 2322, 3242, 3222, 3243]\nlist_headpods_price = [121, 2232, 2323, 1112, 9000, 1000]\nlist_router_price = [2231, 11231, 2322, 242, 3222, 3243]\nlist_magasin_price = [10021, 2232, 12323, 1112, 9090, 1200]",
+        "detail": "curs20.price_discount_product",
+        "documentation": {}
+    },
+    {
+        "label": "procent_discount_demo",
+        "kind": 5,
+        "importPath": "curs20.price_discount_product",
+        "description": "curs20.price_discount_product",
+        "peekOfCode": "procent_discount_demo = 40\nmesaj = total_price(price_product_demo, procent_discount_demo)\nprint(f\"Pretul produsului aflat la reducere este: {mesaj}\")\nlist_product = [\"phone\", \"smartTV\", \"headpods\", \"router\", \"magasin\"]\nlist_phone_price = [10021, 2232, 2323, 1112, 9000, 1000]\nlist_smartTV_price = [1231, 1231, 2322, 3242, 3222, 3243]\nlist_headpods_price = [121, 2232, 2323, 1112, 9000, 1000]\nlist_router_price = [2231, 11231, 2322, 242, 3222, 3243]\nlist_magasin_price = [10021, 2232, 12323, 1112, 9090, 1200]\nclub_member = [\"Alin\", \"Maria\", \"Alexa\", \"Dina\", \"Amalia\", \"Mira\", \"Doina\"]",
+        "detail": "curs20.price_discount_product",
+        "documentation": {}
+    },
+    {
+        "label": "mesaj",
+        "kind": 5,
+        "importPath": "curs20.price_discount_product",
+        "description": "curs20.price_discount_product",
+        "peekOfCode": "mesaj = total_price(price_product_demo, procent_discount_demo)\nprint(f\"Pretul produsului aflat la reducere este: {mesaj}\")\nlist_product = [\"phone\", \"smartTV\", \"headpods\", \"router\", \"magasin\"]\nlist_phone_price = [10021, 2232, 2323, 1112, 9000, 1000]\nlist_smartTV_price = [1231, 1231, 2322, 3242, 3222, 3243]\nlist_headpods_price = [121, 2232, 2323, 1112, 9000, 1000]\nlist_router_price = [2231, 11231, 2322, 242, 3222, 3243]\nlist_magasin_price = [10021, 2232, 12323, 1112, 9090, 1200]\nclub_member = [\"Alin\", \"Maria\", \"Alexa\", \"Dina\", \"Amalia\", \"Mira\", \"Doina\"]\nclub_member_gold = [\"Alin\", \"Dina\", \"Amalia\", \"Mira\", \"Doina\"]",
+        "detail": "curs20.price_discount_product",
+        "documentation": {}
+    },
+    {
+        "label": "list_product",
+        "kind": 5,
+        "importPath": "curs20.price_discount_product",
+        "description": "curs20.price_discount_product",
+        "peekOfCode": "list_product = [\"phone\", \"smartTV\", \"headpods\", \"router\", \"magasin\"]\nlist_phone_price = [10021, 2232, 2323, 1112, 9000, 1000]\nlist_smartTV_price = [1231, 1231, 2322, 3242, 3222, 3243]\nlist_headpods_price = [121, 2232, 2323, 1112, 9000, 1000]\nlist_router_price = [2231, 11231, 2322, 242, 3222, 3243]\nlist_magasin_price = [10021, 2232, 12323, 1112, 9090, 1200]\nclub_member = [\"Alin\", \"Maria\", \"Alexa\", \"Dina\", \"Amalia\", \"Mira\", \"Doina\"]\nclub_member_gold = [\"Alin\", \"Dina\", \"Amalia\", \"Mira\", \"Doina\"]\nclub_member_platinum = [\"Alin\", \"Dina\", \"Mira\"]\nclub_member_diamond = [\"Alin\", \"Mira\"]",
+        "detail": "curs20.price_discount_product",
+        "documentation": {}
+    },
+    {
+        "label": "list_phone_price",
+        "kind": 5,
+        "importPath": "curs20.price_discount_product",
+        "description": "curs20.price_discount_product",
+        "peekOfCode": "list_phone_price = [10021, 2232, 2323, 1112, 9000, 1000]\nlist_smartTV_price = [1231, 1231, 2322, 3242, 3222, 3243]\nlist_headpods_price = [121, 2232, 2323, 1112, 9000, 1000]\nlist_router_price = [2231, 11231, 2322, 242, 3222, 3243]\nlist_magasin_price = [10021, 2232, 12323, 1112, 9090, 1200]\nclub_member = [\"Alin\", \"Maria\", \"Alexa\", \"Dina\", \"Amalia\", \"Mira\", \"Doina\"]\nclub_member_gold = [\"Alin\", \"Dina\", \"Amalia\", \"Mira\", \"Doina\"]\nclub_member_platinum = [\"Alin\", \"Dina\", \"Mira\"]\nclub_member_diamond = [\"Alin\", \"Mira\"]\nclient = input(\"Introduceti numele clientului: \")",
+        "detail": "curs20.price_discount_product",
+        "documentation": {}
+    },
+    {
+        "label": "list_smartTV_price",
+        "kind": 5,
+        "importPath": "curs20.price_discount_product",
+        "description": "curs20.price_discount_product",
+        "peekOfCode": "list_smartTV_price = [1231, 1231, 2322, 3242, 3222, 3243]\nlist_headpods_price = [121, 2232, 2323, 1112, 9000, 1000]\nlist_router_price = [2231, 11231, 2322, 242, 3222, 3243]\nlist_magasin_price = [10021, 2232, 12323, 1112, 9090, 1200]\nclub_member = [\"Alin\", \"Maria\", \"Alexa\", \"Dina\", \"Amalia\", \"Mira\", \"Doina\"]\nclub_member_gold = [\"Alin\", \"Dina\", \"Amalia\", \"Mira\", \"Doina\"]\nclub_member_platinum = [\"Alin\", \"Dina\", \"Mira\"]\nclub_member_diamond = [\"Alin\", \"Mira\"]\nclient = input(\"Introduceti numele clientului: \")\nif client in club_member_diamond:",
+        "detail": "curs20.price_discount_product",
+        "documentation": {}
+    },
+    {
+        "label": "list_headpods_price",
+        "kind": 5,
+        "importPath": "curs20.price_discount_product",
+        "description": "curs20.price_discount_product",
+        "peekOfCode": "list_headpods_price = [121, 2232, 2323, 1112, 9000, 1000]\nlist_router_price = [2231, 11231, 2322, 242, 3222, 3243]\nlist_magasin_price = [10021, 2232, 12323, 1112, 9090, 1200]\nclub_member = [\"Alin\", \"Maria\", \"Alexa\", \"Dina\", \"Amalia\", \"Mira\", \"Doina\"]\nclub_member_gold = [\"Alin\", \"Dina\", \"Amalia\", \"Mira\", \"Doina\"]\nclub_member_platinum = [\"Alin\", \"Dina\", \"Mira\"]\nclub_member_diamond = [\"Alin\", \"Mira\"]\nclient = input(\"Introduceti numele clientului: \")\nif client in club_member_diamond:\n    print(\"Clientul face parte din clubul de membri diamond!\")",
+        "detail": "curs20.price_discount_product",
+        "documentation": {}
+    },
+    {
+        "label": "list_router_price",
+        "kind": 5,
+        "importPath": "curs20.price_discount_product",
+        "description": "curs20.price_discount_product",
+        "peekOfCode": "list_router_price = [2231, 11231, 2322, 242, 3222, 3243]\nlist_magasin_price = [10021, 2232, 12323, 1112, 9090, 1200]\nclub_member = [\"Alin\", \"Maria\", \"Alexa\", \"Dina\", \"Amalia\", \"Mira\", \"Doina\"]\nclub_member_gold = [\"Alin\", \"Dina\", \"Amalia\", \"Mira\", \"Doina\"]\nclub_member_platinum = [\"Alin\", \"Dina\", \"Mira\"]\nclub_member_diamond = [\"Alin\", \"Mira\"]\nclient = input(\"Introduceti numele clientului: \")\nif client in club_member_diamond:\n    print(\"Clientul face parte din clubul de membri diamond!\")\n    discount_phone = 35",
+        "detail": "curs20.price_discount_product",
+        "documentation": {}
+    },
+    {
+        "label": "list_magasin_price",
+        "kind": 5,
+        "importPath": "curs20.price_discount_product",
+        "description": "curs20.price_discount_product",
+        "peekOfCode": "list_magasin_price = [10021, 2232, 12323, 1112, 9090, 1200]\nclub_member = [\"Alin\", \"Maria\", \"Alexa\", \"Dina\", \"Amalia\", \"Mira\", \"Doina\"]\nclub_member_gold = [\"Alin\", \"Dina\", \"Amalia\", \"Mira\", \"Doina\"]\nclub_member_platinum = [\"Alin\", \"Dina\", \"Mira\"]\nclub_member_diamond = [\"Alin\", \"Mira\"]\nclient = input(\"Introduceti numele clientului: \")\nif client in club_member_diamond:\n    print(\"Clientul face parte din clubul de membri diamond!\")\n    discount_phone = 35\n    discount_smartTV = 25",
+        "detail": "curs20.price_discount_product",
+        "documentation": {}
+    },
+    {
+        "label": "club_member",
+        "kind": 5,
+        "importPath": "curs20.price_discount_product",
+        "description": "curs20.price_discount_product",
+        "peekOfCode": "club_member = [\"Alin\", \"Maria\", \"Alexa\", \"Dina\", \"Amalia\", \"Mira\", \"Doina\"]\nclub_member_gold = [\"Alin\", \"Dina\", \"Amalia\", \"Mira\", \"Doina\"]\nclub_member_platinum = [\"Alin\", \"Dina\", \"Mira\"]\nclub_member_diamond = [\"Alin\", \"Mira\"]\nclient = input(\"Introduceti numele clientului: \")\nif client in club_member_diamond:\n    print(\"Clientul face parte din clubul de membri diamond!\")\n    discount_phone = 35\n    discount_smartTV = 25\n    discount_headpods = 23",
+        "detail": "curs20.price_discount_product",
+        "documentation": {}
+    },
+    {
+        "label": "club_member_gold",
+        "kind": 5,
+        "importPath": "curs20.price_discount_product",
+        "description": "curs20.price_discount_product",
+        "peekOfCode": "club_member_gold = [\"Alin\", \"Dina\", \"Amalia\", \"Mira\", \"Doina\"]\nclub_member_platinum = [\"Alin\", \"Dina\", \"Mira\"]\nclub_member_diamond = [\"Alin\", \"Mira\"]\nclient = input(\"Introduceti numele clientului: \")\nif client in club_member_diamond:\n    print(\"Clientul face parte din clubul de membri diamond!\")\n    discount_phone = 35\n    discount_smartTV = 25\n    discount_headpods = 23\n    discount_router = 22",
+        "detail": "curs20.price_discount_product",
+        "documentation": {}
+    },
+    {
+        "label": "club_member_platinum",
+        "kind": 5,
+        "importPath": "curs20.price_discount_product",
+        "description": "curs20.price_discount_product",
+        "peekOfCode": "club_member_platinum = [\"Alin\", \"Dina\", \"Mira\"]\nclub_member_diamond = [\"Alin\", \"Mira\"]\nclient = input(\"Introduceti numele clientului: \")\nif client in club_member_diamond:\n    print(\"Clientul face parte din clubul de membri diamond!\")\n    discount_phone = 35\n    discount_smartTV = 25\n    discount_headpods = 23\n    discount_router = 22\n    discount_magasin = 30",
+        "detail": "curs20.price_discount_product",
+        "documentation": {}
+    },
+    {
+        "label": "club_member_diamond",
+        "kind": 5,
+        "importPath": "curs20.price_discount_product",
+        "description": "curs20.price_discount_product",
+        "peekOfCode": "club_member_diamond = [\"Alin\", \"Mira\"]\nclient = input(\"Introduceti numele clientului: \")\nif client in club_member_diamond:\n    print(\"Clientul face parte din clubul de membri diamond!\")\n    discount_phone = 35\n    discount_smartTV = 25\n    discount_headpods = 23\n    discount_router = 22\n    discount_magasin = 30\nelif client in club_member_platinum:",
+        "detail": "curs20.price_discount_product",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "curs20.price_discount_product",
+        "description": "curs20.price_discount_product",
+        "peekOfCode": "client = input(\"Introduceti numele clientului: \")\nif client in club_member_diamond:\n    print(\"Clientul face parte din clubul de membri diamond!\")\n    discount_phone = 35\n    discount_smartTV = 25\n    discount_headpods = 23\n    discount_router = 22\n    discount_magasin = 30\nelif client in club_member_platinum:\n    print(\"Clientul face parte din clubul de membri platinum!\")",
+        "detail": "curs20.price_discount_product",
+        "documentation": {}
+    },
+    {
+        "label": "nume",
+        "kind": 5,
+        "importPath": "curs21.format",
+        "description": "curs21.format",
+        "peekOfCode": "nume = \"Marko\"\nmesaj = \"Bun venit, {}\".format(nume)\nprint(mesaj)  # Bun venit, Marko",
+        "detail": "curs21.format",
+        "documentation": {}
+    },
+    {
+        "label": "mesaj",
+        "kind": 5,
+        "importPath": "curs21.format",
+        "description": "curs21.format",
+        "peekOfCode": "mesaj = \"Bun venit, {}\".format(nume)\nprint(mesaj)  # Bun venit, Marko",
+        "detail": "curs21.format",
+        "documentation": {}
+    },
+    {
+        "label": "mesaj",
+        "kind": 5,
+        "importPath": "curs21.formatare_personalizata",
+        "description": "curs21.formatare_personalizata",
+        "peekOfCode": "mesaj = (f\"Stimate {prenume_client}, ati cheltuit in total \"\n         f\"{suma_achiziti_client:.2f}, efectuand {nr_achiziti_client}\")\nif nr_achiziti_10000 > 1 and nr_achiziti_client > 1:\n    mesaj += (f\" achizitii, dintre care {nr_achiziti_10000} achizitii au fost \"\n              f\"peste 10.000 de lei. Utilizatorul {nume_client} \"\n              f\"{prenume_client} are statut de utilizator {statut_client}.\")\nelif nr_achiziti_10000 == 1 and nr_achiziti_client > 1:\n    mesaj += (\" achizitii, dintre care o singura achizitie a fost peste 10.000\"\n              f\"de lei. Utilizatorul {nume_client} {prenume_client} are\"\n              f\" statut de utilizator {statut_client}.\")",
+        "detail": "curs21.formatare_personalizata",
+        "documentation": {}
+    },
+    {
+        "label": "mesaj",
+        "kind": 5,
+        "importPath": "curs21.formatare_personalizata",
+        "description": "curs21.formatare_personalizata",
+        "peekOfCode": "mesaj = (f\"Stimate {prenume_client}, ati cheltuit in total \"\n         f\"{suma_achiziti_client:.2f}, efectuand {nr_achiziti_client}\")\nif nr_achiziti_10000 > 1 and nr_achiziti_client > 1:\n    mesaj += (f\" achizitii, dintre care {nr_achiziti_10000} achizitii au fost \"\n              f\"peste 10.000 de lei. Utilizatorul {nume_client} \"\n              f\"{prenume_client} are statut de utilizator {statut_client}.\")\nelif nr_achiziti_10000 == 1 and nr_achiziti_client > 1:\n    mesaj += (\" achizitii, dintre care o singura achizitie a fost peste 10.000\"\n              f\"de lei. Utilizatorul {nume_client} {prenume_client} are\"\n              f\" statut de utilizator {statut_client}.\")",
+        "detail": "curs21.formatare_personalizata",
+        "documentation": {}
+    },
+    {
+        "label": "cod",
+        "kind": 5,
+        "importPath": "curs21.isdigit",
+        "description": "curs21.isdigit",
+        "peekOfCode": "cod = \"123456\"\nprint(\"Your code is: \", cod)\nis_digital = cod.isdigit()\nprint(\"Is your code digital?\", is_digital)\nif is_digital:\n    print(\"Thank you!\")\nelse:\n    print(\"Please enter digits only.\")\nnume = \"Alina90\"\nis_letter = nume.isalpha()",
+        "detail": "curs21.isdigit",
+        "documentation": {}
+    },
+    {
+        "label": "is_digital",
+        "kind": 5,
+        "importPath": "curs21.isdigit",
+        "description": "curs21.isdigit",
+        "peekOfCode": "is_digital = cod.isdigit()\nprint(\"Is your code digital?\", is_digital)\nif is_digital:\n    print(\"Thank you!\")\nelse:\n    print(\"Please enter digits only.\")\nnume = \"Alina90\"\nis_letter = nume.isalpha()\nprint(\"Is your name a letter?\", is_letter)\nis_alnum = nume.isalnum()",
+        "detail": "curs21.isdigit",
+        "documentation": {}
+    },
+    {
+        "label": "nume",
+        "kind": 5,
+        "importPath": "curs21.isdigit",
+        "description": "curs21.isdigit",
+        "peekOfCode": "nume = \"Alina90\"\nis_letter = nume.isalpha()\nprint(\"Is your name a letter?\", is_letter)\nis_alnum = nume.isalnum()\nprint(\"Is your name alphanumeric?\", is_alnum)\nif is_alnum:\n    print(\"Thank you!\")\nelse:\n    print(\"Please enter letters and numbers only.\")\ntext = \"Python este distractiv\"",
+        "detail": "curs21.isdigit",
+        "documentation": {}
+    },
+    {
+        "label": "is_letter",
+        "kind": 5,
+        "importPath": "curs21.isdigit",
+        "description": "curs21.isdigit",
+        "peekOfCode": "is_letter = nume.isalpha()\nprint(\"Is your name a letter?\", is_letter)\nis_alnum = nume.isalnum()\nprint(\"Is your name alphanumeric?\", is_alnum)\nif is_alnum:\n    print(\"Thank you!\")\nelse:\n    print(\"Please enter letters and numbers only.\")\ntext = \"Python este distractiv\"\nif text.startswith(\"Python\") and text.endswith(\"distractiv\"):",
+        "detail": "curs21.isdigit",
+        "documentation": {}
+    },
+    {
+        "label": "is_alnum",
+        "kind": 5,
+        "importPath": "curs21.isdigit",
+        "description": "curs21.isdigit",
+        "peekOfCode": "is_alnum = nume.isalnum()\nprint(\"Is your name alphanumeric?\", is_alnum)\nif is_alnum:\n    print(\"Thank you!\")\nelse:\n    print(\"Please enter letters and numbers only.\")\ntext = \"Python este distractiv\"\nif text.startswith(\"Python\") and text.endswith(\"distractiv\"):\n    print(\"Textul incepe cu Python si se termina cu distractiv\")\nelse:",
+        "detail": "curs21.isdigit",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "curs21.isdigit",
+        "description": "curs21.isdigit",
+        "peekOfCode": "text = \"Python este distractiv\"\nif text.startswith(\"Python\") and text.endswith(\"distractiv\"):\n    print(\"Textul incepe cu Python si se termina cu distractiv\")\nelse:\n    print(\"Textul nu incepe cu Python si nu se termina cu distractiv\")",
+        "detail": "curs21.isdigit",
+        "documentation": {}
+    },
+    {
+        "label": "nume_utilizator",
+        "kind": 5,
+        "importPath": "curs21.nume_string",
+        "description": "curs21.nume_string",
+        "peekOfCode": "nume_utilizator = input(\"Introduceti numele utilizatorului: \")\nprint(nume_utilizator[0])\nprint(nume_utilizator[-1])\nprint(nume_utilizator[-2])\nprint(nume_utilizator[-3])\nfor litere in nume_utilizator:\n    print(f\"Litera este : {litere}\")\nprint(f\"Lungimea numelui este: {len(nume_utilizator)}\")\nprint(nume_utilizator[:4])\nprint(nume_utilizator[:5])",
+        "detail": "curs21.nume_string",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "kind": 6,
+        "importPath": "curs21.product",
+        "description": "curs21.product",
+        "peekOfCode": "class Product:\n    def __init__(self, name: str, price: float, quantity: int):\n        self.name = name\n        self.price = price\n        self.quantity = quantity\n    def total_price(self) -> float:\n        return self.price * self.quantity\n    def __str__(self):\n        return f\"{self.name}: {self.quantity} x {self.price:.2f} = {self.total_price():.2f}\"",
+        "detail": "curs21.product",
+        "documentation": {}
+    },
+    {
+        "label": "mesaj",
+        "kind": 5,
+        "importPath": "curs21.replace_find_string",
+        "description": "curs21.replace_find_string",
+        "peekOfCode": "mesaj = \"Aceasta este o sarcina pentru exersare\"\nprint(mesaj)\npozitie = mesaj.find(\"sarcina\")\nprint(f\"Indexul este {pozitie}\")\nlungime = len(mesaj)\nprint(f\"Lungimea mesajului este {lungime}\")\nsubsir = mesaj[0:15]\nprint(f\"Subsirul este {subsir}\")\nlista_cuvinte = mesaj.split()\nprint(f\"Lista de cuvinte este {lista_cuvinte}\")",
+        "detail": "curs21.replace_find_string",
+        "documentation": {}
+    },
+    {
+        "label": "pozitie",
+        "kind": 5,
+        "importPath": "curs21.replace_find_string",
+        "description": "curs21.replace_find_string",
+        "peekOfCode": "pozitie = mesaj.find(\"sarcina\")\nprint(f\"Indexul este {pozitie}\")\nlungime = len(mesaj)\nprint(f\"Lungimea mesajului este {lungime}\")\nsubsir = mesaj[0:15]\nprint(f\"Subsirul este {subsir}\")\nlista_cuvinte = mesaj.split()\nprint(f\"Lista de cuvinte este {lista_cuvinte}\")\nindex_ultim = mesaj.rfind(\"e\")\nprint(f\"Ultima aparitie a literei e este la indexul {index_ultim}\")",
+        "detail": "curs21.replace_find_string",
+        "documentation": {}
+    },
+    {
+        "label": "lungime",
+        "kind": 5,
+        "importPath": "curs21.replace_find_string",
+        "description": "curs21.replace_find_string",
+        "peekOfCode": "lungime = len(mesaj)\nprint(f\"Lungimea mesajului este {lungime}\")\nsubsir = mesaj[0:15]\nprint(f\"Subsirul este {subsir}\")\nlista_cuvinte = mesaj.split()\nprint(f\"Lista de cuvinte este {lista_cuvinte}\")\nindex_ultim = mesaj.rfind(\"e\")\nprint(f\"Ultima aparitie a literei e este la indexul {index_ultim}\")\ncuvant_nou = mesaj.replace(\"exersare\", \"testare\")\nprint(cuvant_nou)",
+        "detail": "curs21.replace_find_string",
+        "documentation": {}
+    },
+    {
+        "label": "subsir",
+        "kind": 5,
+        "importPath": "curs21.replace_find_string",
+        "description": "curs21.replace_find_string",
+        "peekOfCode": "subsir = mesaj[0:15]\nprint(f\"Subsirul este {subsir}\")\nlista_cuvinte = mesaj.split()\nprint(f\"Lista de cuvinte este {lista_cuvinte}\")\nindex_ultim = mesaj.rfind(\"e\")\nprint(f\"Ultima aparitie a literei e este la indexul {index_ultim}\")\ncuvant_nou = mesaj.replace(\"exersare\", \"testare\")\nprint(cuvant_nou)",
+        "detail": "curs21.replace_find_string",
+        "documentation": {}
+    },
+    {
+        "label": "lista_cuvinte",
+        "kind": 5,
+        "importPath": "curs21.replace_find_string",
+        "description": "curs21.replace_find_string",
+        "peekOfCode": "lista_cuvinte = mesaj.split()\nprint(f\"Lista de cuvinte este {lista_cuvinte}\")\nindex_ultim = mesaj.rfind(\"e\")\nprint(f\"Ultima aparitie a literei e este la indexul {index_ultim}\")\ncuvant_nou = mesaj.replace(\"exersare\", \"testare\")\nprint(cuvant_nou)",
+        "detail": "curs21.replace_find_string",
+        "documentation": {}
+    },
+    {
+        "label": "index_ultim",
+        "kind": 5,
+        "importPath": "curs21.replace_find_string",
+        "description": "curs21.replace_find_string",
+        "peekOfCode": "index_ultim = mesaj.rfind(\"e\")\nprint(f\"Ultima aparitie a literei e este la indexul {index_ultim}\")\ncuvant_nou = mesaj.replace(\"exersare\", \"testare\")\nprint(cuvant_nou)",
+        "detail": "curs21.replace_find_string",
+        "documentation": {}
+    },
+    {
+        "label": "cuvant_nou",
+        "kind": 5,
+        "importPath": "curs21.replace_find_string",
+        "description": "curs21.replace_find_string",
+        "peekOfCode": "cuvant_nou = mesaj.replace(\"exersare\", \"testare\")\nprint(cuvant_nou)",
+        "detail": "curs21.replace_find_string",
+        "documentation": {}
+    },
+    {
+        "label": "mesaj",
+        "kind": 5,
+        "importPath": "curs21.split_join",
+        "description": "curs21.split_join",
+        "peekOfCode": "mesaj = \"Astazi este o zi minunata\"\nmesaj_lista = mesaj.split()\nprint(mesaj_lista) \n# ['Astazi', 'este', 'o', 'zi', 'minunata']\nprint(\" \".join(mesaj_lista))\nmy_string = \"Welcome to Python course!\"\nprint(my_string.lower())\nprint(my_string.upper())\nprint(my_string.capitalize())\nprint(my_string.title())",
+        "detail": "curs21.split_join",
+        "documentation": {}
+    },
+    {
+        "label": "mesaj_lista",
+        "kind": 5,
+        "importPath": "curs21.split_join",
+        "description": "curs21.split_join",
+        "peekOfCode": "mesaj_lista = mesaj.split()\nprint(mesaj_lista) \n# ['Astazi', 'este', 'o', 'zi', 'minunata']\nprint(\" \".join(mesaj_lista))\nmy_string = \"Welcome to Python course!\"\nprint(my_string.lower())\nprint(my_string.upper())\nprint(my_string.capitalize())\nprint(my_string.title())\nprint(my_string.swapcase())",
+        "detail": "curs21.split_join",
+        "documentation": {}
+    },
+    {
+        "label": "my_string",
+        "kind": 5,
+        "importPath": "curs21.split_join",
+        "description": "curs21.split_join",
+        "peekOfCode": "my_string = \"Welcome to Python course!\"\nprint(my_string.lower())\nprint(my_string.upper())\nprint(my_string.capitalize())\nprint(my_string.title())\nprint(my_string.swapcase())\nprint(my_string.replace(\"Python\", \"Java\"))\nprint(my_string.startswith(\"Welcome\"))\nprint(my_string.endswith(\"!\"))\nprint(my_string.find(\".\"))",
+        "detail": "curs21.split_join",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "curs21.split_join",
+        "description": "curs21.split_join",
+        "peekOfCode": "data = my_string.split(\" \")\nfor d in data:\n    print(d)",
+        "detail": "curs21.split_join",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "curs6.afisare_grafica",
+        "description": "curs6.afisare_grafica",
+        "peekOfCode": "def add(a, b):\n    return a + b   # Acest lucru este indentat cu patru spatii goale\nnum1=4\nnum2=5\nresult=add(num1, num2)\nprint(result)",
+        "detail": "curs6.afisare_grafica",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "curs6.afisare_grafica",
+        "description": "curs6.afisare_grafica",
+        "peekOfCode": "x = 5\ny = 3\nz = x + y\nprint(f\"Sum of numbers is: {z}\")\na = 10\nb = 2\nres = a * b\nprint(\"Result is: \", res)\nprint(\"End of program\")\nx = 5",
+        "detail": "curs6.afisare_grafica",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "curs6.afisare_grafica",
+        "description": "curs6.afisare_grafica",
+        "peekOfCode": "y = 3\nz = x + y\nprint(f\"Sum of numbers is: {z}\")\na = 10\nb = 2\nres = a * b\nprint(\"Result is: \", res)\nprint(\"End of program\")\nx = 5\ny = 332",
+        "detail": "curs6.afisare_grafica",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "curs6.afisare_grafica",
+        "description": "curs6.afisare_grafica",
+        "peekOfCode": "z = x + y\nprint(f\"Sum of numbers is: {z}\")\na = 10\nb = 2\nres = a * b\nprint(\"Result is: \", res)\nprint(\"End of program\")\nx = 5\ny = 332\nz = x + y",
+        "detail": "curs6.afisare_grafica",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "curs6.afisare_grafica",
+        "description": "curs6.afisare_grafica",
+        "peekOfCode": "a = 10\nb = 2\nres = a * b\nprint(\"Result is: \", res)\nprint(\"End of program\")\nx = 5\ny = 332\nz = x + y\nprint(f\"Sum of numbers is: {z}\")\na = 10",
+        "detail": "curs6.afisare_grafica",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "curs6.afisare_grafica",
+        "description": "curs6.afisare_grafica",
+        "peekOfCode": "b = 2\nres = a * b\nprint(\"Result is: \", res)\nprint(\"End of program\")\nx = 5\ny = 332\nz = x + y\nprint(f\"Sum of numbers is: {z}\")\na = 10\nb = 2",
+        "detail": "curs6.afisare_grafica",
+        "documentation": {}
+    },
+    {
+        "label": "res",
+        "kind": 5,
+        "importPath": "curs6.afisare_grafica",
+        "description": "curs6.afisare_grafica",
+        "peekOfCode": "res = a * b\nprint(\"Result is: \", res)\nprint(\"End of program\")\nx = 5\ny = 332\nz = x + y\nprint(f\"Sum of numbers is: {z}\")\na = 10\nb = 2\nres= a * b",
+        "detail": "curs6.afisare_grafica",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "curs6.afisare_grafica",
+        "description": "curs6.afisare_grafica",
+        "peekOfCode": "x = 5\ny = 332\nz = x + y\nprint(f\"Sum of numbers is: {z}\")\na = 10\nb = 2\nres= a * b\nprint(f\"Result is: {res}\")\na=1+2+3+4+5+6+7+8+9+10\nprint(f\"Result is: {a}\")",
+        "detail": "curs6.afisare_grafica",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "curs6.afisare_grafica",
+        "description": "curs6.afisare_grafica",
+        "peekOfCode": "y = 332\nz = x + y\nprint(f\"Sum of numbers is: {z}\")\na = 10\nb = 2\nres= a * b\nprint(f\"Result is: {res}\")\na=1+2+3+4+5+6+7+8+9+10\nprint(f\"Result is: {a}\")\na=1+2+3+4+5+6\\",
+        "detail": "curs6.afisare_grafica",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "curs6.afisare_grafica",
+        "description": "curs6.afisare_grafica",
+        "peekOfCode": "z = x + y\nprint(f\"Sum of numbers is: {z}\")\na = 10\nb = 2\nres= a * b\nprint(f\"Result is: {res}\")\na=1+2+3+4+5+6+7+8+9+10\nprint(f\"Result is: {a}\")\na=1+2+3+4+5+6\\\n+7+8+9+113",
+        "detail": "curs6.afisare_grafica",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "curs6.afisare_grafica",
+        "description": "curs6.afisare_grafica",
+        "peekOfCode": "a = 10\nb = 2\nres= a * b\nprint(f\"Result is: {res}\")\na=1+2+3+4+5+6+7+8+9+10\nprint(f\"Result is: {a}\")\na=1+2+3+4+5+6\\\n+7+8+9+113\nprint(f\"Result is: {a}\")\nsum = 50 + 100 + 150 + 200 + 250 \\",
+        "detail": "curs6.afisare_grafica",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "curs6.afisare_grafica",
+        "description": "curs6.afisare_grafica",
+        "peekOfCode": "b = 2\nres= a * b\nprint(f\"Result is: {res}\")\na=1+2+3+4+5+6+7+8+9+10\nprint(f\"Result is: {a}\")\na=1+2+3+4+5+6\\\n+7+8+9+113\nprint(f\"Result is: {a}\")\nsum = 50 + 100 + 150 + 200 + 250 \\\n    + 300 + 350 + 400 + 450 + 500 \\",
+        "detail": "curs6.afisare_grafica",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 5,
+        "importPath": "curs6.afisare_grafica",
+        "description": "curs6.afisare_grafica",
+        "peekOfCode": "sum = 50 + 100 + 150 + 200 + 250 \\\n    + 300 + 350 + 400 + 450 + 500 \\\n        + 550 + 600 + 650 + 700 + 750 \\\n            + 800 + 850 + 900 + 950 + 1000\nprint(sum)\ndef add(a, b):\n    return a + b   # Acest lucru este indentat cu patru spatii goale\nnum1=4\nnum2=5\nresult=add(num1, num2)",
+        "detail": "curs6.afisare_grafica",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "curs6.comments",
+        "description": "curs6.comments",
+        "peekOfCode": "num1 = 15\nnum2 = 25\n# The sum of num1 and num2 is calculated\n# and stored in the variable result\nresult = num1 + num2\n# This will print the result of the sum\nprint(result)",
+        "detail": "curs6.comments",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "curs6.comments",
+        "description": "curs6.comments",
+        "peekOfCode": "num2 = 25\n# The sum of num1 and num2 is calculated\n# and stored in the variable result\nresult = num1 + num2\n# This will print the result of the sum\nprint(result)",
+        "detail": "curs6.comments",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "curs6.comments",
+        "description": "curs6.comments",
+        "peekOfCode": "result = num1 + num2\n# This will print the result of the sum\nprint(result)",
+        "detail": "curs6.comments",
+        "documentation": {}
+    },
+    {
+        "label": "PersoanaInterimara",
+        "kind": 6,
+        "importPath": "curs6.examinare",
+        "description": "curs6.examinare",
+        "peekOfCode": "class PersoanaInterimara:\n    def __init__(self, nume, prenume):\n        self.nume = nume\n        self.prenume = prenume\n    def afiseaza_informatii(self):\n        print(f\"Numele este: {self.nume}, Prenumele este: {self.prenume}\")\n# Nume corecte:\n# numar_utilizator\n# calculeaza_suma\n# VALOARE_MAXIMA",
+        "detail": "curs6.examinare",
+        "documentation": {}
+    },
+    {
+        "label": "MasinaSuperioara",
+        "kind": 6,
+        "importPath": "curs6.examinare",
+        "description": "curs6.examinare",
+        "peekOfCode": "class MasinaSuperioara:\n    def __init__(self, marca, model):\n        self.marca = marca\n        self.model = model\n    def afiseaza_informatii(self):\n        print(f\"Marca este: {self.marca}, Modelul este: {self.model}\")\nclass ConstantaValoare:\n    VALOARE_MAXIMA = 1000\n    def __init__(self, valoare):\n        self.valoare = valoare",
+        "detail": "curs6.examinare",
+        "documentation": {}
+    },
+    {
+        "label": "ConstantaValoare",
+        "kind": 6,
+        "importPath": "curs6.examinare",
+        "description": "curs6.examinare",
+        "peekOfCode": "class ConstantaValoare:\n    VALOARE_MAXIMA = 1000\n    def __init__(self, valoare):\n        self.valoare = valoare\n    def afiseaza_informatii(self):\n        print(f\"Valoarea maxima este: {self.VALOARE_MAXIMA}, Valoarea este: {self.valoare}\")\nclass LaptopSeller:\n    def __init__(self, marca, model):\n        self.marca = marca\n        self.model = model",
+        "detail": "curs6.examinare",
+        "documentation": {}
+    },
+    {
+        "label": "LaptopSeller",
+        "kind": 6,
+        "importPath": "curs6.examinare",
+        "description": "curs6.examinare",
+        "peekOfCode": "class LaptopSeller:\n    def __init__(self, marca, model):\n        self.marca = marca\n        self.model = model\n    def afiseaza_informatii(self):\n        print(f\"Marca laptopului este: {self.marca}, Modelul laptopului este: {self.model}\")\nCONSTANTA_IMPERMEABILITATE = 0.8\ndef calculeaza_impermeabilitate(valoare):\n    return valoare * CONSTANTA_IMPERMEABILITATE\nCONSTANTA_VITEZA_LUMINA = 299792458  # in metri pe secunda",
+        "detail": "curs6.examinare",
+        "documentation": {}
+    },
+    {
+        "label": "calculeaza_suma",
+        "kind": 2,
+        "importPath": "curs6.examinare",
+        "description": "curs6.examinare",
+        "peekOfCode": "def calculeaza_suma(a, b):\n    return a + b\ncalculeaza_suma\nVALOARE_MAXIMA=1000\nmasina=\"BMW\"\nCONSTANTA_NUMAR=3.1415926536\ndef afiseaza_informatii(nume, prenume):\n    print(f\"Numele este: {nume}, Prenumele este: {prenume}\")\nafiseaza_informatii\nPI=3.14",
+        "detail": "curs6.examinare",
+        "documentation": {}
+    },
+    {
+        "label": "afiseaza_informatii",
+        "kind": 2,
+        "importPath": "curs6.examinare",
+        "description": "curs6.examinare",
+        "peekOfCode": "def afiseaza_informatii(nume, prenume):\n    print(f\"Numele este: {nume}, Prenumele este: {prenume}\")\nafiseaza_informatii\nPI=3.14\npersoana=\"Ion Popescu\"\ndef __init__(self, nume, prenume):\n    self.nume = nume\n    self.prenume = prenume\nclass PersoanaInterimara:\n    def __init__(self, nume, prenume):",
+        "detail": "curs6.examinare",
+        "documentation": {}
+    },
+    {
+        "label": "calculeaza_impermeabilitate",
+        "kind": 2,
+        "importPath": "curs6.examinare",
+        "description": "curs6.examinare",
+        "peekOfCode": "def calculeaza_impermeabilitate(valoare):\n    return valoare * CONSTANTA_IMPERMEABILITATE\nCONSTANTA_VITEZA_LUMINA = 299792458  # in metri pe secunda\ndef calculeaza_timpul_luminii(distanta):\n    return distanta / CONSTANTA_VITEZA_LUMINA\nCONSTANTA_PLANK = 6.62607015e-34  # in Joule*secunda\ndef calculeaza_energie(frecventa):\n    return CONSTANTA_PLANK * frecventa\nnume_locatie = \"Bucuresti\"\ndef calculeaza_distanta(locatie1, locatie2):",
+        "detail": "curs6.examinare",
+        "documentation": {}
+    },
+    {
+        "label": "calculeaza_timpul_luminii",
+        "kind": 2,
+        "importPath": "curs6.examinare",
+        "description": "curs6.examinare",
+        "peekOfCode": "def calculeaza_timpul_luminii(distanta):\n    return distanta / CONSTANTA_VITEZA_LUMINA\nCONSTANTA_PLANK = 6.62607015e-34  # in Joule*secunda\ndef calculeaza_energie(frecventa):\n    return CONSTANTA_PLANK * frecventa\nnume_locatie = \"Bucuresti\"\ndef calculeaza_distanta(locatie1, locatie2):\n    return abs(locatie1 - locatie2)\nnume_locatie2 = \"Cluj\"\ndef calculeaza_distanta2(locatie1, locatie2):",
+        "detail": "curs6.examinare",
+        "documentation": {}
+    },
+    {
+        "label": "calculeaza_energie",
+        "kind": 2,
+        "importPath": "curs6.examinare",
+        "description": "curs6.examinare",
+        "peekOfCode": "def calculeaza_energie(frecventa):\n    return CONSTANTA_PLANK * frecventa\nnume_locatie = \"Bucuresti\"\ndef calculeaza_distanta(locatie1, locatie2):\n    return abs(locatie1 - locatie2)\nnume_locatie2 = \"Cluj\"\ndef calculeaza_distanta2(locatie1, locatie2):\n    return abs(locatie1 - locatie2)\nnume_locatie3 = \"Timisoara\"\ndef calculeaza_distanta3(locatie1, locatie2):",
+        "detail": "curs6.examinare",
+        "documentation": {}
+    },
+    {
+        "label": "calculeaza_distanta",
+        "kind": 2,
+        "importPath": "curs6.examinare",
+        "description": "curs6.examinare",
+        "peekOfCode": "def calculeaza_distanta(locatie1, locatie2):\n    return abs(locatie1 - locatie2)\nnume_locatie2 = \"Cluj\"\ndef calculeaza_distanta2(locatie1, locatie2):\n    return abs(locatie1 - locatie2)\nnume_locatie3 = \"Timisoara\"\ndef calculeaza_distanta3(locatie1, locatie2):\n    return abs(locatie1 - locatie2)",
+        "detail": "curs6.examinare",
+        "documentation": {}
+    },
+    {
+        "label": "calculeaza_distanta2",
+        "kind": 2,
+        "importPath": "curs6.examinare",
+        "description": "curs6.examinare",
+        "peekOfCode": "def calculeaza_distanta2(locatie1, locatie2):\n    return abs(locatie1 - locatie2)\nnume_locatie3 = \"Timisoara\"\ndef calculeaza_distanta3(locatie1, locatie2):\n    return abs(locatie1 - locatie2)",
+        "detail": "curs6.examinare",
+        "documentation": {}
+    },
+    {
+        "label": "calculeaza_distanta3",
+        "kind": 2,
+        "importPath": "curs6.examinare",
+        "description": "curs6.examinare",
+        "peekOfCode": "def calculeaza_distanta3(locatie1, locatie2):\n    return abs(locatie1 - locatie2)",
+        "detail": "curs6.examinare",
+        "documentation": {}
+    },
+    {
+        "label": "CONSTANTA_IMPERMEABILITATE",
+        "kind": 5,
+        "importPath": "curs6.examinare",
+        "description": "curs6.examinare",
+        "peekOfCode": "CONSTANTA_IMPERMEABILITATE = 0.8\ndef calculeaza_impermeabilitate(valoare):\n    return valoare * CONSTANTA_IMPERMEABILITATE\nCONSTANTA_VITEZA_LUMINA = 299792458  # in metri pe secunda\ndef calculeaza_timpul_luminii(distanta):\n    return distanta / CONSTANTA_VITEZA_LUMINA\nCONSTANTA_PLANK = 6.62607015e-34  # in Joule*secunda\ndef calculeaza_energie(frecventa):\n    return CONSTANTA_PLANK * frecventa\nnume_locatie = \"Bucuresti\"",
+        "detail": "curs6.examinare",
+        "documentation": {}
+    },
+    {
+        "label": "CONSTANTA_VITEZA_LUMINA",
+        "kind": 5,
+        "importPath": "curs6.examinare",
+        "description": "curs6.examinare",
+        "peekOfCode": "CONSTANTA_VITEZA_LUMINA = 299792458  # in metri pe secunda\ndef calculeaza_timpul_luminii(distanta):\n    return distanta / CONSTANTA_VITEZA_LUMINA\nCONSTANTA_PLANK = 6.62607015e-34  # in Joule*secunda\ndef calculeaza_energie(frecventa):\n    return CONSTANTA_PLANK * frecventa\nnume_locatie = \"Bucuresti\"\ndef calculeaza_distanta(locatie1, locatie2):\n    return abs(locatie1 - locatie2)\nnume_locatie2 = \"Cluj\"",
+        "detail": "curs6.examinare",
+        "documentation": {}
+    },
+    {
+        "label": "CONSTANTA_PLANK",
+        "kind": 5,
+        "importPath": "curs6.examinare",
+        "description": "curs6.examinare",
+        "peekOfCode": "CONSTANTA_PLANK = 6.62607015e-34  # in Joule*secunda\ndef calculeaza_energie(frecventa):\n    return CONSTANTA_PLANK * frecventa\nnume_locatie = \"Bucuresti\"\ndef calculeaza_distanta(locatie1, locatie2):\n    return abs(locatie1 - locatie2)\nnume_locatie2 = \"Cluj\"\ndef calculeaza_distanta2(locatie1, locatie2):\n    return abs(locatie1 - locatie2)\nnume_locatie3 = \"Timisoara\"",
+        "detail": "curs6.examinare",
+        "documentation": {}
+    },
+    {
+        "label": "nume_locatie",
+        "kind": 5,
+        "importPath": "curs6.examinare",
+        "description": "curs6.examinare",
+        "peekOfCode": "nume_locatie = \"Bucuresti\"\ndef calculeaza_distanta(locatie1, locatie2):\n    return abs(locatie1 - locatie2)\nnume_locatie2 = \"Cluj\"\ndef calculeaza_distanta2(locatie1, locatie2):\n    return abs(locatie1 - locatie2)\nnume_locatie3 = \"Timisoara\"\ndef calculeaza_distanta3(locatie1, locatie2):\n    return abs(locatie1 - locatie2)",
+        "detail": "curs6.examinare",
+        "documentation": {}
+    },
+    {
+        "label": "nume_locatie2",
+        "kind": 5,
+        "importPath": "curs6.examinare",
+        "description": "curs6.examinare",
+        "peekOfCode": "nume_locatie2 = \"Cluj\"\ndef calculeaza_distanta2(locatie1, locatie2):\n    return abs(locatie1 - locatie2)\nnume_locatie3 = \"Timisoara\"\ndef calculeaza_distanta3(locatie1, locatie2):\n    return abs(locatie1 - locatie2)",
+        "detail": "curs6.examinare",
+        "documentation": {}
+    },
+    {
+        "label": "nume_locatie3",
+        "kind": 5,
+        "importPath": "curs6.examinare",
+        "description": "curs6.examinare",
+        "peekOfCode": "nume_locatie3 = \"Timisoara\"\ndef calculeaza_distanta3(locatie1, locatie2):\n    return abs(locatie1 - locatie2)",
+        "detail": "curs6.examinare",
+        "documentation": {}
+    },
+    {
+        "label": "list_numbers1",
+        "kind": 5,
+        "importPath": "curs6.paranteze",
+        "description": "curs6.paranteze",
+        "peekOfCode": "list_numbers1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nprint(list_numbers1)\nprint(list_numbers1[5:10])\nlist_numbers1 = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)\nprint(list_numbers1)\nprint(list_numbers1[5:10])\ndict_numbers1 = {   \n        \"Activitatea 1\": 1,\n        \"Activitatea 2\": 2,\n        \"Activitatea 3\": 3,",
+        "detail": "curs6.paranteze",
+        "documentation": {}
+    },
+    {
+        "label": "list_numbers1",
+        "kind": 5,
+        "importPath": "curs6.paranteze",
+        "description": "curs6.paranteze",
+        "peekOfCode": "list_numbers1 = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)\nprint(list_numbers1)\nprint(list_numbers1[5:10])\ndict_numbers1 = {   \n        \"Activitatea 1\": 1,\n        \"Activitatea 2\": 2,\n        \"Activitatea 3\": 3,\n        \"Activitatea 4\": 4,\n        \"Activitatea 5\": 5,\n        \"Activitatea 6\": 6,",
+        "detail": "curs6.paranteze",
+        "documentation": {}
+    },
+    {
+        "label": "dict_numbers1",
+        "kind": 5,
+        "importPath": "curs6.paranteze",
+        "description": "curs6.paranteze",
+        "peekOfCode": "dict_numbers1 = {   \n        \"Activitatea 1\": 1,\n        \"Activitatea 2\": 2,\n        \"Activitatea 3\": 3,\n        \"Activitatea 4\": 4,\n        \"Activitatea 5\": 5,\n        \"Activitatea 6\": 6,\n        \"Activitatea 7\": 7,\n        \"Activitatea 8\": 8,\n        \"Activitatea 9\": 9,",
+        "detail": "curs6.paranteze",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "curs6.paranteze_dinamica",
+        "description": "curs6.paranteze_dinamica",
+        "peekOfCode": "x = 5\ny = 3\nz = x + y\nprint(f\"Sum of numbers is: {z}\")\na = 10\nb = 2\nres= a * b\nprint(f\"Result is: {res}\")\na = 1 + 2 + 3 + 4 + 5 \\\n    + 6 + 7 + 8 + 9 + 10 \\",
+        "detail": "curs6.paranteze_dinamica",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "curs6.paranteze_dinamica",
+        "description": "curs6.paranteze_dinamica",
+        "peekOfCode": "y = 3\nz = x + y\nprint(f\"Sum of numbers is: {z}\")\na = 10\nb = 2\nres= a * b\nprint(f\"Result is: {res}\")\na = 1 + 2 + 3 + 4 + 5 \\\n    + 6 + 7 + 8 + 9 + 10 \\\n        + 11 + 12 + 13 + 14 + 15 \\",
+        "detail": "curs6.paranteze_dinamica",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "curs6.paranteze_dinamica",
+        "description": "curs6.paranteze_dinamica",
+        "peekOfCode": "z = x + y\nprint(f\"Sum of numbers is: {z}\")\na = 10\nb = 2\nres= a * b\nprint(f\"Result is: {res}\")\na = 1 + 2 + 3 + 4 + 5 \\\n    + 6 + 7 + 8 + 9 + 10 \\\n        + 11 + 12 + 13 + 14 + 15 \\\n            + 16 + 17 + 18 + 19 + 20",
+        "detail": "curs6.paranteze_dinamica",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "curs6.paranteze_dinamica",
+        "description": "curs6.paranteze_dinamica",
+        "peekOfCode": "a = 10\nb = 2\nres= a * b\nprint(f\"Result is: {res}\")\na = 1 + 2 + 3 + 4 + 5 \\\n    + 6 + 7 + 8 + 9 + 10 \\\n        + 11 + 12 + 13 + 14 + 15 \\\n            + 16 + 17 + 18 + 19 + 20\nprint(f\"Sum of numbers from 1 to 20 is: {a}\")\nsum = 50 + 100 + 150 + 200 + 250 \\",
+        "detail": "curs6.paranteze_dinamica",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "curs6.paranteze_dinamica",
+        "description": "curs6.paranteze_dinamica",
+        "peekOfCode": "b = 2\nres= a * b\nprint(f\"Result is: {res}\")\na = 1 + 2 + 3 + 4 + 5 \\\n    + 6 + 7 + 8 + 9 + 10 \\\n        + 11 + 12 + 13 + 14 + 15 \\\n            + 16 + 17 + 18 + 19 + 20\nprint(f\"Sum of numbers from 1 to 20 is: {a}\")\nsum = 50 + 100 + 150 + 200 + 250 \\\n    + 300 + 350 + 400 + 450 + 500 \\",
+        "detail": "curs6.paranteze_dinamica",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "curs6.paranteze_dinamica",
+        "description": "curs6.paranteze_dinamica",
+        "peekOfCode": "a = 1 + 2 + 3 + 4 + 5 \\\n    + 6 + 7 + 8 + 9 + 10 \\\n        + 11 + 12 + 13 + 14 + 15 \\\n            + 16 + 17 + 18 + 19 + 20\nprint(f\"Sum of numbers from 1 to 20 is: {a}\")\nsum = 50 + 100 + 150 + 200 + 250 \\\n    + 300 + 350 + 400 + 450 + 500 \\\n        + 550 + 600 + 650 + 700 + 750 \\\n            + 800 + 850 + 900 + 950 + 1000\nprint(sum)",
+        "detail": "curs6.paranteze_dinamica",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 5,
+        "importPath": "curs6.paranteze_dinamica",
+        "description": "curs6.paranteze_dinamica",
+        "peekOfCode": "sum = 50 + 100 + 150 + 200 + 250 \\\n    + 300 + 350 + 400 + 450 + 500 \\\n        + 550 + 600 + 650 + 700 + 750 \\\n            + 800 + 850 + 900 + 950 + 1000\nprint(sum)\nlist_numbers= [10, 20, 30, 40, 50]\nprint(list_numbers)\ndata = (1, 2, 3)\nprint(data)\ndict= {\"name\": \"Alex\", \"program\": \"Python\"}",
+        "detail": "curs6.paranteze_dinamica",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "curs6.paranteze_dinamica",
+        "description": "curs6.paranteze_dinamica",
+        "peekOfCode": "data = (1, 2, 3)\nprint(data)\ndict= {\"name\": \"Alex\", \"program\": \"Python\"}\nprint(dict)\nprint(\"Hello, how are you, Alin?\")",
+        "detail": "curs6.paranteze_dinamica",
+        "documentation": {}
+    },
+    {
+        "label": "no_custumers_jan",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "no_custumers_jan = 1200\nno_custumers_feb = 1500\nno_custumers_mar = 1800\nno_custumers_apr = 2000\nno_custumers_may = 2500\nno_custumers_jun = 3000\ntotal_custumers = no_custumers_jan+no_custumers_feb+no_custumers_mar+no_custumers_apr+no_custumers_may+no_custumers_jun\nprint(\"Total number of custumers in the first half 7 of the year: \", total_custumers)\nprint(\"Average number of custumers in the first half of the year: \", total_custumers / 6)\njan_amount = 1200*10.5",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "no_custumers_feb",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "no_custumers_feb = 1500\nno_custumers_mar = 1800\nno_custumers_apr = 2000\nno_custumers_may = 2500\nno_custumers_jun = 3000\ntotal_custumers = no_custumers_jan+no_custumers_feb+no_custumers_mar+no_custumers_apr+no_custumers_may+no_custumers_jun\nprint(\"Total number of custumers in the first half 7 of the year: \", total_custumers)\nprint(\"Average number of custumers in the first half of the year: \", total_custumers / 6)\njan_amount = 1200*10.5\nfeb_amount = 1500*10.5",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "no_custumers_mar",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "no_custumers_mar = 1800\nno_custumers_apr = 2000\nno_custumers_may = 2500\nno_custumers_jun = 3000\ntotal_custumers = no_custumers_jan+no_custumers_feb+no_custumers_mar+no_custumers_apr+no_custumers_may+no_custumers_jun\nprint(\"Total number of custumers in the first half 7 of the year: \", total_custumers)\nprint(\"Average number of custumers in the first half of the year: \", total_custumers / 6)\njan_amount = 1200*10.5\nfeb_amount = 1500*10.5\nmar_amount = 1800*10.5",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "no_custumers_apr",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "no_custumers_apr = 2000\nno_custumers_may = 2500\nno_custumers_jun = 3000\ntotal_custumers = no_custumers_jan+no_custumers_feb+no_custumers_mar+no_custumers_apr+no_custumers_may+no_custumers_jun\nprint(\"Total number of custumers in the first half 7 of the year: \", total_custumers)\nprint(\"Average number of custumers in the first half of the year: \", total_custumers / 6)\njan_amount = 1200*10.5\nfeb_amount = 1500*10.5\nmar_amount = 1800*10.5\napr_amount = 2000*10.5",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "no_custumers_may",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "no_custumers_may = 2500\nno_custumers_jun = 3000\ntotal_custumers = no_custumers_jan+no_custumers_feb+no_custumers_mar+no_custumers_apr+no_custumers_may+no_custumers_jun\nprint(\"Total number of custumers in the first half 7 of the year: \", total_custumers)\nprint(\"Average number of custumers in the first half of the year: \", total_custumers / 6)\njan_amount = 1200*10.5\nfeb_amount = 1500*10.5\nmar_amount = 1800*10.5\napr_amount = 2000*10.5\nmay_amount = 2500*10.5",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "no_custumers_jun",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "no_custumers_jun = 3000\ntotal_custumers = no_custumers_jan+no_custumers_feb+no_custumers_mar+no_custumers_apr+no_custumers_may+no_custumers_jun\nprint(\"Total number of custumers in the first half 7 of the year: \", total_custumers)\nprint(\"Average number of custumers in the first half of the year: \", total_custumers / 6)\njan_amount = 1200*10.5\nfeb_amount = 1500*10.5\nmar_amount = 1800*10.5\napr_amount = 2000*10.5\nmay_amount = 2500*10.5\ndays_no_jan = 31",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "total_custumers",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "total_custumers = no_custumers_jan+no_custumers_feb+no_custumers_mar+no_custumers_apr+no_custumers_may+no_custumers_jun\nprint(\"Total number of custumers in the first half 7 of the year: \", total_custumers)\nprint(\"Average number of custumers in the first half of the year: \", total_custumers / 6)\njan_amount = 1200*10.5\nfeb_amount = 1500*10.5\nmar_amount = 1800*10.5\napr_amount = 2000*10.5\nmay_amount = 2500*10.5\ndays_no_jan = 31\ndays_no_feb = 28",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "jan_amount",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "jan_amount = 1200*10.5\nfeb_amount = 1500*10.5\nmar_amount = 1800*10.5\napr_amount = 2000*10.5\nmay_amount = 2500*10.5\ndays_no_jan = 31\ndays_no_feb = 28\navg_income_jan = jan_amount / days_no_jan\navg_income_feb = feb_amount / days_no_feb\nprint(\"Average income in January: \", avg_income_jan)",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "feb_amount",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "feb_amount = 1500*10.5\nmar_amount = 1800*10.5\napr_amount = 2000*10.5\nmay_amount = 2500*10.5\ndays_no_jan = 31\ndays_no_feb = 28\navg_income_jan = jan_amount / days_no_jan\navg_income_feb = feb_amount / days_no_feb\nprint(\"Average income in January: \", avg_income_jan)\nprint(type(avg_income_jan))",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "mar_amount",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "mar_amount = 1800*10.5\napr_amount = 2000*10.5\nmay_amount = 2500*10.5\ndays_no_jan = 31\ndays_no_feb = 28\navg_income_jan = jan_amount / days_no_jan\navg_income_feb = feb_amount / days_no_feb\nprint(\"Average income in January: \", avg_income_jan)\nprint(type(avg_income_jan))\nprint(\"Average income in February: \", avg_income_feb)",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "apr_amount",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "apr_amount = 2000*10.5\nmay_amount = 2500*10.5\ndays_no_jan = 31\ndays_no_feb = 28\navg_income_jan = jan_amount / days_no_jan\navg_income_feb = feb_amount / days_no_feb\nprint(\"Average income in January: \", avg_income_jan)\nprint(type(avg_income_jan))\nprint(\"Average income in February: \", avg_income_feb)\nprint(type(avg_income_feb))",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "may_amount",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "may_amount = 2500*10.5\ndays_no_jan = 31\ndays_no_feb = 28\navg_income_jan = jan_amount / days_no_jan\navg_income_feb = feb_amount / days_no_feb\nprint(\"Average income in January: \", avg_income_jan)\nprint(type(avg_income_jan))\nprint(\"Average income in February: \", avg_income_feb)\nprint(type(avg_income_feb))\nitems_no = 100",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "days_no_jan",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "days_no_jan = 31\ndays_no_feb = 28\navg_income_jan = jan_amount / days_no_jan\navg_income_feb = feb_amount / days_no_feb\nprint(\"Average income in January: \", avg_income_jan)\nprint(type(avg_income_jan))\nprint(\"Average income in February: \", avg_income_feb)\nprint(type(avg_income_feb))\nitems_no = 100\nemployes_no = 35",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "days_no_feb",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "days_no_feb = 28\navg_income_jan = jan_amount / days_no_jan\navg_income_feb = feb_amount / days_no_feb\nprint(\"Average income in January: \", avg_income_jan)\nprint(type(avg_income_jan))\nprint(\"Average income in February: \", avg_income_feb)\nprint(type(avg_income_feb))\nitems_no = 100\nemployes_no = 35\nno_items_per_employe = items_no / employes_no",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "avg_income_jan",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "avg_income_jan = jan_amount / days_no_jan\navg_income_feb = feb_amount / days_no_feb\nprint(\"Average income in January: \", avg_income_jan)\nprint(type(avg_income_jan))\nprint(\"Average income in February: \", avg_income_feb)\nprint(type(avg_income_feb))\nitems_no = 100\nemployes_no = 35\nno_items_per_employe = items_no / employes_no\nprint(\"Number of items per employe: \", no_items_per_employe)",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "avg_income_feb",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "avg_income_feb = feb_amount / days_no_feb\nprint(\"Average income in January: \", avg_income_jan)\nprint(type(avg_income_jan))\nprint(\"Average income in February: \", avg_income_feb)\nprint(type(avg_income_feb))\nitems_no = 100\nemployes_no = 35\nno_items_per_employe = items_no / employes_no\nprint(\"Number of items per employe: \", no_items_per_employe)\nprint(type(no_items_per_employe))",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "items_no",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "items_no = 100\nemployes_no = 35\nno_items_per_employe = items_no / employes_no\nprint(\"Number of items per employe: \", no_items_per_employe)\nprint(type(no_items_per_employe))\nno_items_per_employe_left = items_no%employes_no\nprint(\"Number of items per employe left: \", no_items_per_employe_left)\nprint(type(no_items_per_employe_left))\nno_custumers_jan = 1200\nno_customers_feb = 950",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "employes_no",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "employes_no = 35\nno_items_per_employe = items_no / employes_no\nprint(\"Number of items per employe: \", no_items_per_employe)\nprint(type(no_items_per_employe))\nno_items_per_employe_left = items_no%employes_no\nprint(\"Number of items per employe left: \", no_items_per_employe_left)\nprint(type(no_items_per_employe_left))\nno_custumers_jan = 1200\nno_customers_feb = 950\ntotal_custumers = no_custumers_jan + no_custumers_feb",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "no_items_per_employe",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "no_items_per_employe = items_no / employes_no\nprint(\"Number of items per employe: \", no_items_per_employe)\nprint(type(no_items_per_employe))\nno_items_per_employe_left = items_no%employes_no\nprint(\"Number of items per employe left: \", no_items_per_employe_left)\nprint(type(no_items_per_employe_left))\nno_custumers_jan = 1200\nno_customers_feb = 950\ntotal_custumers = no_custumers_jan + no_custumers_feb\nprint(\"Total numbers of custumers: \", total_custumers)",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "no_items_per_employe_left",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "no_items_per_employe_left = items_no%employes_no\nprint(\"Number of items per employe left: \", no_items_per_employe_left)\nprint(type(no_items_per_employe_left))\nno_custumers_jan = 1200\nno_customers_feb = 950\ntotal_custumers = no_custumers_jan + no_custumers_feb\nprint(\"Total numbers of custumers: \", total_custumers)\nno_mounts = 2\navg_custumers = total_custumers / no_mounts\nprint(\"Average numbers of custumers: \", avg_custumers)",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "no_custumers_jan",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "no_custumers_jan = 1200\nno_customers_feb = 950\ntotal_custumers = no_custumers_jan + no_custumers_feb\nprint(\"Total numbers of custumers: \", total_custumers)\nno_mounts = 2\navg_custumers = total_custumers / no_mounts\nprint(\"Average numbers of custumers: \", avg_custumers)",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "no_customers_feb",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "no_customers_feb = 950\ntotal_custumers = no_custumers_jan + no_custumers_feb\nprint(\"Total numbers of custumers: \", total_custumers)\nno_mounts = 2\navg_custumers = total_custumers / no_mounts\nprint(\"Average numbers of custumers: \", avg_custumers)",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "total_custumers",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "total_custumers = no_custumers_jan + no_custumers_feb\nprint(\"Total numbers of custumers: \", total_custumers)\nno_mounts = 2\navg_custumers = total_custumers / no_mounts\nprint(\"Average numbers of custumers: \", avg_custumers)",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "no_mounts",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "no_mounts = 2\navg_custumers = total_custumers / no_mounts\nprint(\"Average numbers of custumers: \", avg_custumers)",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "avg_custumers",
+        "kind": 5,
+        "importPath": "curs7.aritm_op",
+        "description": "curs7.aritm_op",
+        "peekOfCode": "avg_custumers = total_custumers / no_mounts\nprint(\"Average numbers of custumers: \", avg_custumers)",
+        "detail": "curs7.aritm_op",
+        "documentation": {}
+    },
+    {
+        "label": "total",
+        "kind": 5,
+        "importPath": "curs7.asociativitate_op",
+        "description": "curs7.asociativitate_op",
+        "peekOfCode": "total = 3000 + 3 * 2500\nprint(\"Total: \", total)\ntota2 = (3000 + 3) * 2500\nprint(\"Total2: \", tota2)\ntotal = (5 + 3) * 2 ** 3\nprint(\"Total3: \", total)",
+        "detail": "curs7.asociativitate_op",
+        "documentation": {}
+    },
+    {
+        "label": "tota2",
+        "kind": 5,
+        "importPath": "curs7.asociativitate_op",
+        "description": "curs7.asociativitate_op",
+        "peekOfCode": "tota2 = (3000 + 3) * 2500\nprint(\"Total2: \", tota2)\ntotal = (5 + 3) * 2 ** 3\nprint(\"Total3: \", total)",
+        "detail": "curs7.asociativitate_op",
+        "documentation": {}
+    },
+    {
+        "label": "total",
+        "kind": 5,
+        "importPath": "curs7.asociativitate_op",
+        "description": "curs7.asociativitate_op",
+        "peekOfCode": "total = (5 + 3) * 2 ** 3\nprint(\"Total3: \", total)",
+        "detail": "curs7.asociativitate_op",
+        "documentation": {}
+    },
+    {
+        "label": "no_custumers_jan",
+        "kind": 5,
+        "importPath": "curs7.avg_custumers",
+        "description": "curs7.avg_custumers",
+        "peekOfCode": "no_custumers_jan = 1200\nno_custumers_feb = 950\nno_custumers_mar = 1300\nno_custumers_apr = 1500\ntotal_custumers = no_custumers_jan + no_custumers_feb\nprint(\"Total numbers custumers: \", total_custumers)\nno_mounts=2\navg_custumers = total_custumers / no_mounts\nprint(\"Average numbers of custumers: \", avg_custumers)\ntotal_custumers_trim = no_custumers_jan + no_custumers_feb + no_custumers_mar + no_custumers_apr",
+        "detail": "curs7.avg_custumers",
+        "documentation": {}
+    },
+    {
+        "label": "no_custumers_feb",
+        "kind": 5,
+        "importPath": "curs7.avg_custumers",
+        "description": "curs7.avg_custumers",
+        "peekOfCode": "no_custumers_feb = 950\nno_custumers_mar = 1300\nno_custumers_apr = 1500\ntotal_custumers = no_custumers_jan + no_custumers_feb\nprint(\"Total numbers custumers: \", total_custumers)\nno_mounts=2\navg_custumers = total_custumers / no_mounts\nprint(\"Average numbers of custumers: \", avg_custumers)\ntotal_custumers_trim = no_custumers_jan + no_custumers_feb + no_custumers_mar + no_custumers_apr\nprint(\"Total numbers custumers first trimester: \", total_custumers_trim)",
+        "detail": "curs7.avg_custumers",
+        "documentation": {}
+    },
+    {
+        "label": "no_custumers_mar",
+        "kind": 5,
+        "importPath": "curs7.avg_custumers",
+        "description": "curs7.avg_custumers",
+        "peekOfCode": "no_custumers_mar = 1300\nno_custumers_apr = 1500\ntotal_custumers = no_custumers_jan + no_custumers_feb\nprint(\"Total numbers custumers: \", total_custumers)\nno_mounts=2\navg_custumers = total_custumers / no_mounts\nprint(\"Average numbers of custumers: \", avg_custumers)\ntotal_custumers_trim = no_custumers_jan + no_custumers_feb + no_custumers_mar + no_custumers_apr\nprint(\"Total numbers custumers first trimester: \", total_custumers_trim)\nprint(f\"Numărul de clienţi în ianuarie era mai mic decât numărul de clienţi în februarie: {verificare_1}\")",
+        "detail": "curs7.avg_custumers",
+        "documentation": {}
+    },
+    {
+        "label": "no_custumers_apr",
+        "kind": 5,
+        "importPath": "curs7.avg_custumers",
+        "description": "curs7.avg_custumers",
+        "peekOfCode": "no_custumers_apr = 1500\ntotal_custumers = no_custumers_jan + no_custumers_feb\nprint(\"Total numbers custumers: \", total_custumers)\nno_mounts=2\navg_custumers = total_custumers / no_mounts\nprint(\"Average numbers of custumers: \", avg_custumers)\ntotal_custumers_trim = no_custumers_jan + no_custumers_feb + no_custumers_mar + no_custumers_apr\nprint(\"Total numbers custumers first trimester: \", total_custumers_trim)\nprint(f\"Numărul de clienţi în ianuarie era mai mic decât numărul de clienţi în februarie: {verificare_1}\")",
+        "detail": "curs7.avg_custumers",
+        "documentation": {}
+    },
+    {
+        "label": "total_custumers",
+        "kind": 5,
+        "importPath": "curs7.avg_custumers",
+        "description": "curs7.avg_custumers",
+        "peekOfCode": "total_custumers = no_custumers_jan + no_custumers_feb\nprint(\"Total numbers custumers: \", total_custumers)\nno_mounts=2\navg_custumers = total_custumers / no_mounts\nprint(\"Average numbers of custumers: \", avg_custumers)\ntotal_custumers_trim = no_custumers_jan + no_custumers_feb + no_custumers_mar + no_custumers_apr\nprint(\"Total numbers custumers first trimester: \", total_custumers_trim)\nprint(f\"Numărul de clienţi în ianuarie era mai mic decât numărul de clienţi în februarie: {verificare_1}\")",
+        "detail": "curs7.avg_custumers",
+        "documentation": {}
+    },
+    {
+        "label": "avg_custumers",
+        "kind": 5,
+        "importPath": "curs7.avg_custumers",
+        "description": "curs7.avg_custumers",
+        "peekOfCode": "avg_custumers = total_custumers / no_mounts\nprint(\"Average numbers of custumers: \", avg_custumers)\ntotal_custumers_trim = no_custumers_jan + no_custumers_feb + no_custumers_mar + no_custumers_apr\nprint(\"Total numbers custumers first trimester: \", total_custumers_trim)\nprint(f\"Numărul de clienţi în ianuarie era mai mic decât numărul de clienţi în februarie: {verificare_1}\")",
+        "detail": "curs7.avg_custumers",
+        "documentation": {}
+    },
+    {
+        "label": "total_custumers_trim",
+        "kind": 5,
+        "importPath": "curs7.avg_custumers",
+        "description": "curs7.avg_custumers",
+        "peekOfCode": "total_custumers_trim = no_custumers_jan + no_custumers_feb + no_custumers_mar + no_custumers_apr\nprint(\"Total numbers custumers first trimester: \", total_custumers_trim)\nprint(f\"Numărul de clienţi în ianuarie era mai mic decât numărul de clienţi în februarie: {verificare_1}\")",
+        "detail": "curs7.avg_custumers",
+        "documentation": {}
+    },
+    {
+        "label": "customers_jan",
+        "kind": 5,
+        "importPath": "curs7.logic_op",
+        "description": "curs7.logic_op",
+        "peekOfCode": "customers_jan = 1200\navg_feb = 52.75\ncustomers_feb = 950\nans = customers_jan > 100 and customers_feb > 500 \\\n    and avg_feb > 100\nprint(ans)\nprint(type(ans))\nans = customers_jan > 100 or customers_feb > 500 \\\n    or avg_feb > 100\nprint(ans)",
+        "detail": "curs7.logic_op",
+        "documentation": {}
+    },
+    {
+        "label": "avg_feb",
+        "kind": 5,
+        "importPath": "curs7.logic_op",
+        "description": "curs7.logic_op",
+        "peekOfCode": "avg_feb = 52.75\ncustomers_feb = 950\nans = customers_jan > 100 and customers_feb > 500 \\\n    and avg_feb > 100\nprint(ans)\nprint(type(ans))\nans = customers_jan > 100 or customers_feb > 500 \\\n    or avg_feb > 100\nprint(ans)\nprint(type(ans))",
+        "detail": "curs7.logic_op",
+        "documentation": {}
+    },
+    {
+        "label": "customers_feb",
+        "kind": 5,
+        "importPath": "curs7.logic_op",
+        "description": "curs7.logic_op",
+        "peekOfCode": "customers_feb = 950\nans = customers_jan > 100 and customers_feb > 500 \\\n    and avg_feb > 100\nprint(ans)\nprint(type(ans))\nans = customers_jan > 100 or customers_feb > 500 \\\n    or avg_feb > 100\nprint(ans)\nprint(type(ans))\nans = not (customers_jan > 100)",
+        "detail": "curs7.logic_op",
+        "documentation": {}
+    },
+    {
+        "label": "ans",
+        "kind": 5,
+        "importPath": "curs7.logic_op",
+        "description": "curs7.logic_op",
+        "peekOfCode": "ans = customers_jan > 100 and customers_feb > 500 \\\n    and avg_feb > 100\nprint(ans)\nprint(type(ans))\nans = customers_jan > 100 or customers_feb > 500 \\\n    or avg_feb > 100\nprint(ans)\nprint(type(ans))\nans = not (customers_jan > 100)\nans2 = customers_jan <= 100",
+        "detail": "curs7.logic_op",
+        "documentation": {}
+    },
+    {
+        "label": "ans",
+        "kind": 5,
+        "importPath": "curs7.logic_op",
+        "description": "curs7.logic_op",
+        "peekOfCode": "ans = customers_jan > 100 or customers_feb > 500 \\\n    or avg_feb > 100\nprint(ans)\nprint(type(ans))\nans = not (customers_jan > 100)\nans2 = customers_jan <= 100\nprint(ans)\nprint(ans2)\nprint(type(ans))\nprint(type(ans2))",
+        "detail": "curs7.logic_op",
+        "documentation": {}
+    },
+    {
+        "label": "ans",
+        "kind": 5,
+        "importPath": "curs7.logic_op",
+        "description": "curs7.logic_op",
+        "peekOfCode": "ans = not (customers_jan > 100)\nans2 = customers_jan <= 100\nprint(ans)\nprint(ans2)\nprint(type(ans))\nprint(type(ans2))\nans = customers_jan != 1200\nprint(ans)\nans = not (customers_jan == 1200)\nprint(ans)",
+        "detail": "curs7.logic_op",
+        "documentation": {}
+    },
+    {
+        "label": "ans2",
+        "kind": 5,
+        "importPath": "curs7.logic_op",
+        "description": "curs7.logic_op",
+        "peekOfCode": "ans2 = customers_jan <= 100\nprint(ans)\nprint(ans2)\nprint(type(ans))\nprint(type(ans2))\nans = customers_jan != 1200\nprint(ans)\nans = not (customers_jan == 1200)\nprint(ans)\nno_custumers_jan = 155",
+        "detail": "curs7.logic_op",
+        "documentation": {}
+    },
+    {
+        "label": "ans",
+        "kind": 5,
+        "importPath": "curs7.logic_op",
+        "description": "curs7.logic_op",
+        "peekOfCode": "ans = customers_jan != 1200\nprint(ans)\nans = not (customers_jan == 1200)\nprint(ans)\nno_custumers_jan = 155\nno_custumers_feb = 120\nno_custumers_mar = 155\navg_jan = 58\navg_feb = 47.50\navg_mar = 58",
+        "detail": "curs7.logic_op",
+        "documentation": {}
+    },
+    {
+        "label": "ans",
+        "kind": 5,
+        "importPath": "curs7.logic_op",
+        "description": "curs7.logic_op",
+        "peekOfCode": "ans = not (customers_jan == 1200)\nprint(ans)\nno_custumers_jan = 155\nno_custumers_feb = 120\nno_custumers_mar = 155\navg_jan = 58\navg_feb = 47.50\navg_mar = 58\nans = no_custumers_jan > no_custumers_feb\nprint(\"Number of customers in January is greater than in February: \", ans)",
+        "detail": "curs7.logic_op",
+        "documentation": {}
+    },
+    {
+        "label": "no_custumers_jan",
+        "kind": 5,
+        "importPath": "curs7.logic_op",
+        "description": "curs7.logic_op",
+        "peekOfCode": "no_custumers_jan = 155\nno_custumers_feb = 120\nno_custumers_mar = 155\navg_jan = 58\navg_feb = 47.50\navg_mar = 58\nans = no_custumers_jan > no_custumers_feb\nprint(\"Number of customers in January is greater than in February: \", ans)\nans = avg_jan < avg_feb\nprint(\"Average in January is smaller than in February: \", ans)",
+        "detail": "curs7.logic_op",
+        "documentation": {}
+    },
+    {
+        "label": "no_custumers_feb",
+        "kind": 5,
+        "importPath": "curs7.logic_op",
+        "description": "curs7.logic_op",
+        "peekOfCode": "no_custumers_feb = 120\nno_custumers_mar = 155\navg_jan = 58\navg_feb = 47.50\navg_mar = 58\nans = no_custumers_jan > no_custumers_feb\nprint(\"Number of customers in January is greater than in February: \", ans)\nans = avg_jan < avg_feb\nprint(\"Average in January is smaller than in February: \", ans)\nprint(type(ans))",
+        "detail": "curs7.logic_op",
+        "documentation": {}
+    },
+    {
+        "label": "no_custumers_mar",
+        "kind": 5,
+        "importPath": "curs7.logic_op",
+        "description": "curs7.logic_op",
+        "peekOfCode": "no_custumers_mar = 155\navg_jan = 58\navg_feb = 47.50\navg_mar = 58\nans = no_custumers_jan > no_custumers_feb\nprint(\"Number of customers in January is greater than in February: \", ans)\nans = avg_jan < avg_feb\nprint(\"Average in January is smaller than in February: \", ans)\nprint(type(ans))\nans1 = no_custumers_mar > 150 or avg_mar > 60",
+        "detail": "curs7.logic_op",
+        "documentation": {}
+    },
+    {
+        "label": "avg_jan",
+        "kind": 5,
+        "importPath": "curs7.logic_op",
+        "description": "curs7.logic_op",
+        "peekOfCode": "avg_jan = 58\navg_feb = 47.50\navg_mar = 58\nans = no_custumers_jan > no_custumers_feb\nprint(\"Number of customers in January is greater than in February: \", ans)\nans = avg_jan < avg_feb\nprint(\"Average in January is smaller than in February: \", ans)\nprint(type(ans))\nans1 = no_custumers_mar > 150 or avg_mar > 60\nprint(\"Number of customers in March is greater than 150 or average in March is greater than 60: \", ans1)",
+        "detail": "curs7.logic_op",
+        "documentation": {}
+    },
+    {
+        "label": "avg_feb",
+        "kind": 5,
+        "importPath": "curs7.logic_op",
+        "description": "curs7.logic_op",
+        "peekOfCode": "avg_feb = 47.50\navg_mar = 58\nans = no_custumers_jan > no_custumers_feb\nprint(\"Number of customers in January is greater than in February: \", ans)\nans = avg_jan < avg_feb\nprint(\"Average in January is smaller than in February: \", ans)\nprint(type(ans))\nans1 = no_custumers_mar > 150 or avg_mar > 60\nprint(\"Number of customers in March is greater than 150 or average in March is greater than 60: \", ans1)\nprint(type(ans1))",
+        "detail": "curs7.logic_op",
+        "documentation": {}
+    },
+    {
+        "label": "avg_mar",
+        "kind": 5,
+        "importPath": "curs7.logic_op",
+        "description": "curs7.logic_op",
+        "peekOfCode": "avg_mar = 58\nans = no_custumers_jan > no_custumers_feb\nprint(\"Number of customers in January is greater than in February: \", ans)\nans = avg_jan < avg_feb\nprint(\"Average in January is smaller than in February: \", ans)\nprint(type(ans))\nans1 = no_custumers_mar > 150 or avg_mar > 60\nprint(\"Number of customers in March is greater than 150 or average in March is greater than 60: \", ans1)\nprint(type(ans1))\nans2 = not (no_custumers_mar < 100)",
+        "detail": "curs7.logic_op",
+        "documentation": {}
+    },
+    {
+        "label": "ans",
+        "kind": 5,
+        "importPath": "curs7.logic_op",
+        "description": "curs7.logic_op",
+        "peekOfCode": "ans = no_custumers_jan > no_custumers_feb\nprint(\"Number of customers in January is greater than in February: \", ans)\nans = avg_jan < avg_feb\nprint(\"Average in January is smaller than in February: \", ans)\nprint(type(ans))\nans1 = no_custumers_mar > 150 or avg_mar > 60\nprint(\"Number of customers in March is greater than 150 or average in March is greater than 60: \", ans1)\nprint(type(ans1))\nans2 = not (no_custumers_mar < 100)\nprint(\"Number of customers in March is not smaller than 100: \", ans2)",
+        "detail": "curs7.logic_op",
+        "documentation": {}
+    },
+    {
+        "label": "ans",
+        "kind": 5,
+        "importPath": "curs7.logic_op",
+        "description": "curs7.logic_op",
+        "peekOfCode": "ans = avg_jan < avg_feb\nprint(\"Average in January is smaller than in February: \", ans)\nprint(type(ans))\nans1 = no_custumers_mar > 150 or avg_mar > 60\nprint(\"Number of customers in March is greater than 150 or average in March is greater than 60: \", ans1)\nprint(type(ans1))\nans2 = not (no_custumers_mar < 100)\nprint(\"Number of customers in March is not smaller than 100: \", ans2)\nprint(type(ans2))",
+        "detail": "curs7.logic_op",
+        "documentation": {}
+    },
+    {
+        "label": "ans1",
+        "kind": 5,
+        "importPath": "curs7.logic_op",
+        "description": "curs7.logic_op",
+        "peekOfCode": "ans1 = no_custumers_mar > 150 or avg_mar > 60\nprint(\"Number of customers in March is greater than 150 or average in March is greater than 60: \", ans1)\nprint(type(ans1))\nans2 = not (no_custumers_mar < 100)\nprint(\"Number of customers in March is not smaller than 100: \", ans2)\nprint(type(ans2))",
+        "detail": "curs7.logic_op",
+        "documentation": {}
+    },
+    {
+        "label": "ans2",
+        "kind": 5,
+        "importPath": "curs7.logic_op",
+        "description": "curs7.logic_op",
+        "peekOfCode": "ans2 = not (no_custumers_mar < 100)\nprint(\"Number of customers in March is not smaller than 100: \", ans2)\nprint(type(ans2))",
+        "detail": "curs7.logic_op",
+        "documentation": {}
+    },
+    {
+        "label": "no_customers_jan",
+        "kind": 5,
+        "importPath": "curs7.update_variables",
+        "description": "curs7.update_variables",
+        "peekOfCode": "no_customers_jan = 1200\nno_customers_feb = 950\nno_customers_mar = 1300\navg_jan = 58.75\navg_feb = 47.50\navg_mar = 98.25\nexpenses_mar = 4000\ntotal_customers = no_customers_jan\nprint(\"Total number of customers: \", total_customers)\n#   total_customers = no_customers_jan + no_customers_feb",
+        "detail": "curs7.update_variables",
+        "documentation": {}
+    },
+    {
+        "label": "no_customers_feb",
+        "kind": 5,
+        "importPath": "curs7.update_variables",
+        "description": "curs7.update_variables",
+        "peekOfCode": "no_customers_feb = 950\nno_customers_mar = 1300\navg_jan = 58.75\navg_feb = 47.50\navg_mar = 98.25\nexpenses_mar = 4000\ntotal_customers = no_customers_jan\nprint(\"Total number of customers: \", total_customers)\n#   total_customers = no_customers_jan + no_customers_feb\nprint(\"Total number of customers: \", total_customers)",
+        "detail": "curs7.update_variables",
+        "documentation": {}
+    },
+    {
+        "label": "no_customers_mar",
+        "kind": 5,
+        "importPath": "curs7.update_variables",
+        "description": "curs7.update_variables",
+        "peekOfCode": "no_customers_mar = 1300\navg_jan = 58.75\navg_feb = 47.50\navg_mar = 98.25\nexpenses_mar = 4000\ntotal_customers = no_customers_jan\nprint(\"Total number of customers: \", total_customers)\n#   total_customers = no_customers_jan + no_customers_feb\nprint(\"Total number of customers: \", total_customers)\ntotal_customers += no_customers_feb",
+        "detail": "curs7.update_variables",
+        "documentation": {}
+    },
+    {
+        "label": "avg_jan",
+        "kind": 5,
+        "importPath": "curs7.update_variables",
+        "description": "curs7.update_variables",
+        "peekOfCode": "avg_jan = 58.75\navg_feb = 47.50\navg_mar = 98.25\nexpenses_mar = 4000\ntotal_customers = no_customers_jan\nprint(\"Total number of customers: \", total_customers)\n#   total_customers = no_customers_jan + no_customers_feb\nprint(\"Total number of customers: \", total_customers)\ntotal_customers += no_customers_feb\nprint(\"Total number of customers: \", total_customers)",
+        "detail": "curs7.update_variables",
+        "documentation": {}
+    },
+    {
+        "label": "avg_feb",
+        "kind": 5,
+        "importPath": "curs7.update_variables",
+        "description": "curs7.update_variables",
+        "peekOfCode": "avg_feb = 47.50\navg_mar = 98.25\nexpenses_mar = 4000\ntotal_customers = no_customers_jan\nprint(\"Total number of customers: \", total_customers)\n#   total_customers = no_customers_jan + no_customers_feb\nprint(\"Total number of customers: \", total_customers)\ntotal_customers += no_customers_feb\nprint(\"Total number of customers: \", total_customers)\ntotal_customers += no_customers_mar",
+        "detail": "curs7.update_variables",
+        "documentation": {}
+    },
+    {
+        "label": "avg_mar",
+        "kind": 5,
+        "importPath": "curs7.update_variables",
+        "description": "curs7.update_variables",
+        "peekOfCode": "avg_mar = 98.25\nexpenses_mar = 4000\ntotal_customers = no_customers_jan\nprint(\"Total number of customers: \", total_customers)\n#   total_customers = no_customers_jan + no_customers_feb\nprint(\"Total number of customers: \", total_customers)\ntotal_customers += no_customers_feb\nprint(\"Total number of customers: \", total_customers)\ntotal_customers += no_customers_mar\nprint(\"Total number of customers: \", total_customers)",
+        "detail": "curs7.update_variables",
+        "documentation": {}
+    },
+    {
+        "label": "expenses_mar",
+        "kind": 5,
+        "importPath": "curs7.update_variables",
+        "description": "curs7.update_variables",
+        "peekOfCode": "expenses_mar = 4000\ntotal_customers = no_customers_jan\nprint(\"Total number of customers: \", total_customers)\n#   total_customers = no_customers_jan + no_customers_feb\nprint(\"Total number of customers: \", total_customers)\ntotal_customers += no_customers_feb\nprint(\"Total number of customers: \", total_customers)\ntotal_customers += no_customers_mar\nprint(\"Total number of customers: \", total_customers)\ntotal_avg = avg_jan + avg_feb",
+        "detail": "curs7.update_variables",
+        "documentation": {}
+    },
+    {
+        "label": "total_customers",
+        "kind": 5,
+        "importPath": "curs7.update_variables",
+        "description": "curs7.update_variables",
+        "peekOfCode": "total_customers = no_customers_jan\nprint(\"Total number of customers: \", total_customers)\n#   total_customers = no_customers_jan + no_customers_feb\nprint(\"Total number of customers: \", total_customers)\ntotal_customers += no_customers_feb\nprint(\"Total number of customers: \", total_customers)\ntotal_customers += no_customers_mar\nprint(\"Total number of customers: \", total_customers)\ntotal_avg = avg_jan + avg_feb\nprint(\"Total average: \", total_avg)",
+        "detail": "curs7.update_variables",
+        "documentation": {}
+    },
+    {
+        "label": "total_avg",
+        "kind": 5,
+        "importPath": "curs7.update_variables",
+        "description": "curs7.update_variables",
+        "peekOfCode": "total_avg = avg_jan + avg_feb\nprint(\"Total average: \", total_avg)\ntotal_avg += ((avg_mar * 31) - expenses_mar) / 31\nprint(\"Total average: \", total_avg)\ntotal_avg /= 3\nprint(\"Total average: \", total_avg)\ntotal_avg += avg_mar\nprint(\"Total average: \", total_avg)\ntotal_avg /= 4\nprint(\"Total average: \", total_avg)",
+        "detail": "curs7.update_variables",
+        "documentation": {}
+    },
+    {
+        "label": "name_user1",
+        "kind": 5,
+        "importPath": "curs8.achizitii",
+        "description": "curs8.achizitii",
+        "peekOfCode": "name_user1 = input(\"Introduceti numele utilizatorului: \")\nprint(f\"Salut, {name_user1} !\")\nno_achizitii1 = int(input(\"Introduceti numarul de achizitii: \"))\nvarsta_user1 = int(input(\"Introduceti varsta utilizatorului: \"))\nif varsta_user1 < 18:\n    print(\"Clientul este minor.\")\n    if varsta_user1 >= 18:\n        print(\"Clientul este major.\")\n        if no_achizitii1 > 0:\n            print(f\"Clientul {name_user1} in varsta de {varsta_user1} \\",
+        "detail": "curs8.achizitii",
+        "documentation": {}
+    },
+    {
+        "label": "no_achizitii1",
+        "kind": 5,
+        "importPath": "curs8.achizitii",
+        "description": "curs8.achizitii",
+        "peekOfCode": "no_achizitii1 = int(input(\"Introduceti numarul de achizitii: \"))\nvarsta_user1 = int(input(\"Introduceti varsta utilizatorului: \"))\nif varsta_user1 < 18:\n    print(\"Clientul este minor.\")\n    if varsta_user1 >= 18:\n        print(\"Clientul este major.\")\n        if no_achizitii1 > 0:\n            print(f\"Clientul {name_user1} in varsta de {varsta_user1} \\\n                a facut {no_achizitii1} achizitii.\")\n        else:",
+        "detail": "curs8.achizitii",
+        "documentation": {}
+    },
+    {
+        "label": "varsta_user1",
+        "kind": 5,
+        "importPath": "curs8.achizitii",
+        "description": "curs8.achizitii",
+        "peekOfCode": "varsta_user1 = int(input(\"Introduceti varsta utilizatorului: \"))\nif varsta_user1 < 18:\n    print(\"Clientul este minor.\")\n    if varsta_user1 >= 18:\n        print(\"Clientul este major.\")\n        if no_achizitii1 > 0:\n            print(f\"Clientul {name_user1} in varsta de {varsta_user1} \\\n                a facut {no_achizitii1} achizitii.\")\n        else:\n            print(f\"Clientul {name_user1} in varsta de {varsta_user1} \\",
+        "detail": "curs8.achizitii",
+        "documentation": {}
+    },
+    {
+        "label": "name_user2",
+        "kind": 5,
+        "importPath": "curs8.achizitii",
+        "description": "curs8.achizitii",
+        "peekOfCode": "name_user2 = input(\"Introduceti numele utilizatorului: \")\nprint(f\"Salut, {name_user2} !\")\nno_achizitii2 = int(input(\"Introduceti numarul de achizitii: \"))\nvarsta_user2 = int(input(\"Introduceti varsta utilizatorului: \"))\nif varsta_user2 < 18:\n    print(\"Clientul este minor.\")\n    if varsta_user2 >= 18:\n        print(\"Clientul este major.\")\n        if no_achizitii2 > 0:\n            print(f\"Clientul {name_user2} in varsta de {varsta_user2} \\",
+        "detail": "curs8.achizitii",
+        "documentation": {}
+    },
+    {
+        "label": "no_achizitii2",
+        "kind": 5,
+        "importPath": "curs8.achizitii",
+        "description": "curs8.achizitii",
+        "peekOfCode": "no_achizitii2 = int(input(\"Introduceti numarul de achizitii: \"))\nvarsta_user2 = int(input(\"Introduceti varsta utilizatorului: \"))\nif varsta_user2 < 18:\n    print(\"Clientul este minor.\")\n    if varsta_user2 >= 18:\n        print(\"Clientul este major.\")\n        if no_achizitii2 > 0:\n            print(f\"Clientul {name_user2} in varsta de {varsta_user2} \\\n                a facut {no_achizitii2} achizitii.\")\n        else:",
+        "detail": "curs8.achizitii",
+        "documentation": {}
+    },
+    {
+        "label": "varsta_user2",
+        "kind": 5,
+        "importPath": "curs8.achizitii",
+        "description": "curs8.achizitii",
+        "peekOfCode": "varsta_user2 = int(input(\"Introduceti varsta utilizatorului: \"))\nif varsta_user2 < 18:\n    print(\"Clientul este minor.\")\n    if varsta_user2 >= 18:\n        print(\"Clientul este major.\")\n        if no_achizitii2 > 0:\n            print(f\"Clientul {name_user2} in varsta de {varsta_user2} \\\n                a facut {no_achizitii2} achizitii.\")\n        else:\n            print(f\"Clientul {name_user2} in varsta de {varsta_user2} \\",
+        "detail": "curs8.achizitii",
+        "documentation": {}
+    },
+    {
+        "label": "suma_achizitii",
+        "kind": 5,
+        "importPath": "curs8.achizitii",
+        "description": "curs8.achizitii",
+        "peekOfCode": "suma_achizitii = no_achizitii1 + no_achizitii2\nprint(f\"Clienții {name_user1} și {name_user2} au realizat împreună {suma_achizitii} de achiziții.\")",
+        "detail": "curs8.achizitii",
+        "documentation": {}
+    },
+    {
+        "label": "nume",
+        "kind": 5,
+        "importPath": "curs8.hello_nume",
+        "description": "curs8.hello_nume",
+        "peekOfCode": "nume = input(\"Cum te numesti ? \")\nprint(\"Salut, \" + nume + \" !\")\n# print(\"Hello! How are you?\")\nprint(f\"Salut, {nume} !\")\nprimul_numar = input(\"Introdu primul numar: \")\nal_doilea_numar = input(\"Introdu al doilea numar: \")\nsuma=primul_numar + al_doilea_numar # logica il concateneaza ca este string\nprint(f\"Suma este: {suma}\")\nsuma = int(primul_numar) + int(al_doilea_numar) # logica il concateneaza ca este string\nprint(f\"Suma este: {suma}\")",
+        "detail": "curs8.hello_nume",
+        "documentation": {}
+    },
+    {
+        "label": "primul_numar",
+        "kind": 5,
+        "importPath": "curs8.hello_nume",
+        "description": "curs8.hello_nume",
+        "peekOfCode": "primul_numar = input(\"Introdu primul numar: \")\nal_doilea_numar = input(\"Introdu al doilea numar: \")\nsuma=primul_numar + al_doilea_numar # logica il concateneaza ca este string\nprint(f\"Suma este: {suma}\")\nsuma = int(primul_numar) + int(al_doilea_numar) # logica il concateneaza ca este string\nprint(f\"Suma este: {suma}\")",
+        "detail": "curs8.hello_nume",
+        "documentation": {}
+    },
+    {
+        "label": "al_doilea_numar",
+        "kind": 5,
+        "importPath": "curs8.hello_nume",
+        "description": "curs8.hello_nume",
+        "peekOfCode": "al_doilea_numar = input(\"Introdu al doilea numar: \")\nsuma=primul_numar + al_doilea_numar # logica il concateneaza ca este string\nprint(f\"Suma este: {suma}\")\nsuma = int(primul_numar) + int(al_doilea_numar) # logica il concateneaza ca este string\nprint(f\"Suma este: {suma}\")",
+        "detail": "curs8.hello_nume",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "kind": 5,
+        "importPath": "curs8.hello_nume",
+        "description": "curs8.hello_nume",
+        "peekOfCode": "suma = int(primul_numar) + int(al_doilea_numar) # logica il concateneaza ca este string\nprint(f\"Suma este: {suma}\")",
+        "detail": "curs8.hello_nume",
+        "documentation": {}
+    },
+    {
+        "label": "num_10",
+        "kind": 5,
+        "importPath": "curs8.total_cart",
+        "description": "curs8.total_cart",
+        "peekOfCode": "num_10 = int(input(\"Enter a number of 10 cart: \"))\nnum_20 = int(input(\"Enter a number of 20 cart: \"))\nnum_50 = int(input(\"Enter a number of 50 cart: \"))      \nnum_100 = int(input(\"Enter a number of 100 cart: \"))\nnum_200 = int(input(\"Enter a number of 200 cart: \"))\nnum_500 = int(input(\"Enter a number of 500 cart: \"))\ntotal_cash = (num_10 * 10) + (num_20 * 20) + (num_50 * 50) \\\n     + (num_100 * 100) + (num_200 * 200) + (num_500 * 500)\nprint(f\"Total cash: {total_cash}\")\ntotal_cart = num_10 + num_20 + num_50 + num_100 + num_200 + num_500",
+        "detail": "curs8.total_cart",
+        "documentation": {}
+    },
+    {
+        "label": "num_20",
+        "kind": 5,
+        "importPath": "curs8.total_cart",
+        "description": "curs8.total_cart",
+        "peekOfCode": "num_20 = int(input(\"Enter a number of 20 cart: \"))\nnum_50 = int(input(\"Enter a number of 50 cart: \"))      \nnum_100 = int(input(\"Enter a number of 100 cart: \"))\nnum_200 = int(input(\"Enter a number of 200 cart: \"))\nnum_500 = int(input(\"Enter a number of 500 cart: \"))\ntotal_cash = (num_10 * 10) + (num_20 * 20) + (num_50 * 50) \\\n     + (num_100 * 100) + (num_200 * 200) + (num_500 * 500)\nprint(f\"Total cash: {total_cash}\")\ntotal_cart = num_10 + num_20 + num_50 + num_100 + num_200 + num_500\n# print(f\"Total number of cart: {total_cart}\")",
+        "detail": "curs8.total_cart",
+        "documentation": {}
+    },
+    {
+        "label": "num_50",
+        "kind": 5,
+        "importPath": "curs8.total_cart",
+        "description": "curs8.total_cart",
+        "peekOfCode": "num_50 = int(input(\"Enter a number of 50 cart: \"))      \nnum_100 = int(input(\"Enter a number of 100 cart: \"))\nnum_200 = int(input(\"Enter a number of 200 cart: \"))\nnum_500 = int(input(\"Enter a number of 500 cart: \"))\ntotal_cash = (num_10 * 10) + (num_20 * 20) + (num_50 * 50) \\\n     + (num_100 * 100) + (num_200 * 200) + (num_500 * 500)\nprint(f\"Total cash: {total_cash}\")\ntotal_cart = num_10 + num_20 + num_50 + num_100 + num_200 + num_500\n# print(f\"Total number of cart: {total_cart}\")\nprint(f\"Total number of cart: {total_cart}\")",
+        "detail": "curs8.total_cart",
+        "documentation": {}
+    },
+    {
+        "label": "num_100",
+        "kind": 5,
+        "importPath": "curs8.total_cart",
+        "description": "curs8.total_cart",
+        "peekOfCode": "num_100 = int(input(\"Enter a number of 100 cart: \"))\nnum_200 = int(input(\"Enter a number of 200 cart: \"))\nnum_500 = int(input(\"Enter a number of 500 cart: \"))\ntotal_cash = (num_10 * 10) + (num_20 * 20) + (num_50 * 50) \\\n     + (num_100 * 100) + (num_200 * 200) + (num_500 * 500)\nprint(f\"Total cash: {total_cash}\")\ntotal_cart = num_10 + num_20 + num_50 + num_100 + num_200 + num_500\n# print(f\"Total number of cart: {total_cart}\")\nprint(f\"Total number of cart: {total_cart}\")",
+        "detail": "curs8.total_cart",
+        "documentation": {}
+    },
+    {
+        "label": "num_200",
+        "kind": 5,
+        "importPath": "curs8.total_cart",
+        "description": "curs8.total_cart",
+        "peekOfCode": "num_200 = int(input(\"Enter a number of 200 cart: \"))\nnum_500 = int(input(\"Enter a number of 500 cart: \"))\ntotal_cash = (num_10 * 10) + (num_20 * 20) + (num_50 * 50) \\\n     + (num_100 * 100) + (num_200 * 200) + (num_500 * 500)\nprint(f\"Total cash: {total_cash}\")\ntotal_cart = num_10 + num_20 + num_50 + num_100 + num_200 + num_500\n# print(f\"Total number of cart: {total_cart}\")\nprint(f\"Total number of cart: {total_cart}\")",
+        "detail": "curs8.total_cart",
+        "documentation": {}
+    },
+    {
+        "label": "num_500",
+        "kind": 5,
+        "importPath": "curs8.total_cart",
+        "description": "curs8.total_cart",
+        "peekOfCode": "num_500 = int(input(\"Enter a number of 500 cart: \"))\ntotal_cash = (num_10 * 10) + (num_20 * 20) + (num_50 * 50) \\\n     + (num_100 * 100) + (num_200 * 200) + (num_500 * 500)\nprint(f\"Total cash: {total_cash}\")\ntotal_cart = num_10 + num_20 + num_50 + num_100 + num_200 + num_500\n# print(f\"Total number of cart: {total_cart}\")\nprint(f\"Total number of cart: {total_cart}\")",
+        "detail": "curs8.total_cart",
+        "documentation": {}
+    },
+    {
+        "label": "total_cash",
+        "kind": 5,
+        "importPath": "curs8.total_cart",
+        "description": "curs8.total_cart",
+        "peekOfCode": "total_cash = (num_10 * 10) + (num_20 * 20) + (num_50 * 50) \\\n     + (num_100 * 100) + (num_200 * 200) + (num_500 * 500)\nprint(f\"Total cash: {total_cash}\")\ntotal_cart = num_10 + num_20 + num_50 + num_100 + num_200 + num_500\n# print(f\"Total number of cart: {total_cart}\")\nprint(f\"Total number of cart: {total_cart}\")",
+        "detail": "curs8.total_cart",
+        "documentation": {}
+    },
+    {
+        "label": "total_cart",
+        "kind": 5,
+        "importPath": "curs8.total_cart",
+        "description": "curs8.total_cart",
+        "peekOfCode": "total_cart = num_10 + num_20 + num_50 + num_100 + num_200 + num_500\n# print(f\"Total number of cart: {total_cart}\")\nprint(f\"Total number of cart: {total_cart}\")",
+        "detail": "curs8.total_cart",
+        "documentation": {}
+    },
+    {
+        "label": "transaction",
+        "kind": 5,
+        "importPath": "curs9.transaction_else_even_odd copy",
+        "description": "curs9.transaction_else_even_odd copy",
+        "peekOfCode": "transaction = int(input(\"Enter transaction number: \"))\nif transaction % 2 == 0:\n    print(\"Transaction is even\")\nelse:\n    # This is the else block\n    print(\"Transaction is odd\")\nprint(\"Good bye\")\nif (not (transaction % 2 == 0)):\n    print(\"Transaction is odd\")\n    print(\"Good bye!!!\")",
+        "detail": "curs9.transaction_else_even_odd copy",
+        "documentation": {}
+    },
+    {
+        "label": "transaction",
+        "kind": 5,
+        "importPath": "curs9.transaction_if_even_odd",
+        "description": "curs9.transaction_if_even_odd",
+        "peekOfCode": "transaction = int(input(\"Enter transaction number: \"))\nif transaction % 2 == 0:\n    print(\"Transaction is even\")\nif transaction % 2 != 0:\n    print(\"Transaction is odd\")\nprint(\"Good bye\")\nif (not (transaction % 2 == 0)):\n    print(\"Transaction is odd\")\n    print(\"Good bye!!!\")",
+        "detail": "curs9.transaction_if_even_odd",
+        "documentation": {}
+    },
+    {
+        "label": "citeste_nume",
+        "kind": 2,
+        "importPath": "proiect_final.analiza_date_client_achiziti",
+        "description": "proiect_final.analiza_date_client_achiziti",
+        "peekOfCode": "def citeste_nume():\n    while True:\n        nume_utilizator = input(\"Introduceți numele si prenumele \"\n                                \"utilizatorului: \").strip().split()\n        if len(nume_utilizator) < 2:\n            print(\"Avertisment: Numele nu a fost introdus corect! Va rugam sa \"\n                  \"introduceti cel putin 2 cuvinte.\")\n            continue\n        else:\n            nume = nume_utilizator[0]",
+        "detail": "proiect_final.analiza_date_client_achiziti",
+        "documentation": {}
+    },
+    {
+        "label": "nr_achiziti",
+        "kind": 2,
+        "importPath": "proiect_final.analiza_date_client_achiziti",
+        "description": "proiect_final.analiza_date_client_achiziti",
+        "peekOfCode": "def nr_achiziti():\n    while True:\n        nr_total_achiziti = int(input(\"Introduceti numarul de achizitii din \"\n                                      \"ultimul an: \"))\n        suma_total_achiziti = 0\n        nr_achiziti_mari = 0\n        if nr_total_achiziti > 1:\n            for achiziti in range(nr_total_achiziti):\n                valoare_achizitie = float(input(\"Introduceti suma pentru \"\n                                                f\"achizitia {achiziti + 1}: \"))",
+        "detail": "proiect_final.analiza_date_client_achiziti",
+        "documentation": {}
+    },
+    {
+        "label": "determina_statut",
+        "kind": 2,
+        "importPath": "proiect_final.analiza_date_client_achiziti",
+        "description": "proiect_final.analiza_date_client_achiziti",
+        "peekOfCode": "def determina_statut(suma_total_achiziti, nr_total_achiziti):\n    if suma_total_achiziti > 100000 and nr_total_achiziti > 10:\n        return \"VIP\", 0.1\n    else:\n        return \"STANDARD\", 0.05\n# 1. Citirea si validarea numelui si prenumelui utilizatorului\nnume_client, prenume_client = citeste_nume()\n# 2. Introducerea datelor despre achizitie:\nsuma_achiziti_client, nr_achiziti_10000, nr_achiziti_client = nr_achiziti()\n# 3. Atribuirea statutului clientului",
+        "detail": "proiect_final.analiza_date_client_achiziti",
+        "documentation": {}
+    },
+    {
+        "label": "mesaj",
+        "kind": 5,
+        "importPath": "proiect_final.analiza_date_client_achiziti",
+        "description": "proiect_final.analiza_date_client_achiziti",
+        "peekOfCode": "mesaj = (f\"Stimate {prenume_client}, ati cheltuit in total \"\n         f\"{suma_achiziti_client:.2f}, efectuand {nr_achiziti_client}\")\nif nr_achiziti_10000 > 1 and nr_achiziti_client > 1:\n    mesaj += (f\" achizitii, dintre care {nr_achiziti_10000} achizitii au fost \"\n              f\"peste 10.000 de lei. Utilizatorul {nume_client} \"\n              f\"{prenume_client} are statut de utilizator {statut_client}.\")\nelif nr_achiziti_10000 == 1 and nr_achiziti_client > 1:\n    mesaj += (\" achizitii, dintre care o singura achizitie a fost peste 10.000\"\n              f\"de lei. Utilizatorul {nume_client} {prenume_client} are\"\n              f\" statut de utilizator {statut_client}.\")",
+        "detail": "proiect_final.analiza_date_client_achiziti",
+        "documentation": {}
+    },
+    {
+        "label": "nr_client_luni",
+        "kind": 5,
+        "importPath": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "nr_client_luni = int(input(\"Introduceti nr. de clienti Luni: \"))\nnr_client_marti = int(input(\"Introduceti nr. de clienti Marti: \"))\nnr_client_miercuri = int(input(\"Introduceti nr. de clienti Miercuri: \"))\nnr_client_joi = int(input(\"Introduceti nr. de clienti Joi: \"))\nnr_client_vineri = int(input(\"Introduceti nr. de clienti Vineri: \"))\nnr_client_sambata = int(input(\"Introduceti nr. de clienti Sambata: \"))\nnr_client_duminica = int(input(\"Introduceti nr. de clienti Duminica: \"))\n# 1 Calculam numarul total de clienti pentru intreaga saptamana\nnr_client_total = nr_client_luni + nr_client_marti + nr_client_miercuri \\\n    + nr_client_joi + nr_client_vineri + nr_client_sambata + nr_client_duminica",
+        "detail": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "nr_client_marti",
+        "kind": 5,
+        "importPath": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "nr_client_marti = int(input(\"Introduceti nr. de clienti Marti: \"))\nnr_client_miercuri = int(input(\"Introduceti nr. de clienti Miercuri: \"))\nnr_client_joi = int(input(\"Introduceti nr. de clienti Joi: \"))\nnr_client_vineri = int(input(\"Introduceti nr. de clienti Vineri: \"))\nnr_client_sambata = int(input(\"Introduceti nr. de clienti Sambata: \"))\nnr_client_duminica = int(input(\"Introduceti nr. de clienti Duminica: \"))\n# 1 Calculam numarul total de clienti pentru intreaga saptamana\nnr_client_total = nr_client_luni + nr_client_marti + nr_client_miercuri \\\n    + nr_client_joi + nr_client_vineri + nr_client_sambata + nr_client_duminica\n# 2 Calculam numarul total de client pentru zilele lucratoare",
+        "detail": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "nr_client_miercuri",
+        "kind": 5,
+        "importPath": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "nr_client_miercuri = int(input(\"Introduceti nr. de clienti Miercuri: \"))\nnr_client_joi = int(input(\"Introduceti nr. de clienti Joi: \"))\nnr_client_vineri = int(input(\"Introduceti nr. de clienti Vineri: \"))\nnr_client_sambata = int(input(\"Introduceti nr. de clienti Sambata: \"))\nnr_client_duminica = int(input(\"Introduceti nr. de clienti Duminica: \"))\n# 1 Calculam numarul total de clienti pentru intreaga saptamana\nnr_client_total = nr_client_luni + nr_client_marti + nr_client_miercuri \\\n    + nr_client_joi + nr_client_vineri + nr_client_sambata + nr_client_duminica\n# 2 Calculam numarul total de client pentru zilele lucratoare\nnr_client_zile_lucr = nr_client_luni + nr_client_marti \\",
+        "detail": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "nr_client_joi",
+        "kind": 5,
+        "importPath": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "nr_client_joi = int(input(\"Introduceti nr. de clienti Joi: \"))\nnr_client_vineri = int(input(\"Introduceti nr. de clienti Vineri: \"))\nnr_client_sambata = int(input(\"Introduceti nr. de clienti Sambata: \"))\nnr_client_duminica = int(input(\"Introduceti nr. de clienti Duminica: \"))\n# 1 Calculam numarul total de clienti pentru intreaga saptamana\nnr_client_total = nr_client_luni + nr_client_marti + nr_client_miercuri \\\n    + nr_client_joi + nr_client_vineri + nr_client_sambata + nr_client_duminica\n# 2 Calculam numarul total de client pentru zilele lucratoare\nnr_client_zile_lucr = nr_client_luni + nr_client_marti \\\n                    + nr_client_miercuri + nr_client_joi + nr_client_vineri",
+        "detail": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "nr_client_vineri",
+        "kind": 5,
+        "importPath": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "nr_client_vineri = int(input(\"Introduceti nr. de clienti Vineri: \"))\nnr_client_sambata = int(input(\"Introduceti nr. de clienti Sambata: \"))\nnr_client_duminica = int(input(\"Introduceti nr. de clienti Duminica: \"))\n# 1 Calculam numarul total de clienti pentru intreaga saptamana\nnr_client_total = nr_client_luni + nr_client_marti + nr_client_miercuri \\\n    + nr_client_joi + nr_client_vineri + nr_client_sambata + nr_client_duminica\n# 2 Calculam numarul total de client pentru zilele lucratoare\nnr_client_zile_lucr = nr_client_luni + nr_client_marti \\\n                    + nr_client_miercuri + nr_client_joi + nr_client_vineri\n# 3 Calculam numarul total de client pentru weekend",
+        "detail": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "nr_client_sambata",
+        "kind": 5,
+        "importPath": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "nr_client_sambata = int(input(\"Introduceti nr. de clienti Sambata: \"))\nnr_client_duminica = int(input(\"Introduceti nr. de clienti Duminica: \"))\n# 1 Calculam numarul total de clienti pentru intreaga saptamana\nnr_client_total = nr_client_luni + nr_client_marti + nr_client_miercuri \\\n    + nr_client_joi + nr_client_vineri + nr_client_sambata + nr_client_duminica\n# 2 Calculam numarul total de client pentru zilele lucratoare\nnr_client_zile_lucr = nr_client_luni + nr_client_marti \\\n                    + nr_client_miercuri + nr_client_joi + nr_client_vineri\n# 3 Calculam numarul total de client pentru weekend\nnr_client_weekend = nr_client_sambata + nr_client_duminica",
+        "detail": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "nr_client_duminica",
+        "kind": 5,
+        "importPath": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "nr_client_duminica = int(input(\"Introduceti nr. de clienti Duminica: \"))\n# 1 Calculam numarul total de clienti pentru intreaga saptamana\nnr_client_total = nr_client_luni + nr_client_marti + nr_client_miercuri \\\n    + nr_client_joi + nr_client_vineri + nr_client_sambata + nr_client_duminica\n# 2 Calculam numarul total de client pentru zilele lucratoare\nnr_client_zile_lucr = nr_client_luni + nr_client_marti \\\n                    + nr_client_miercuri + nr_client_joi + nr_client_vineri\n# 3 Calculam numarul total de client pentru weekend\nnr_client_weekend = nr_client_sambata + nr_client_duminica\n# 4 Verificare daca duminica sunt mai multi clienti decat sambata",
+        "detail": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "nr_client_total",
+        "kind": 5,
+        "importPath": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "nr_client_total = nr_client_luni + nr_client_marti + nr_client_miercuri \\\n    + nr_client_joi + nr_client_vineri + nr_client_sambata + nr_client_duminica\n# 2 Calculam numarul total de client pentru zilele lucratoare\nnr_client_zile_lucr = nr_client_luni + nr_client_marti \\\n                    + nr_client_miercuri + nr_client_joi + nr_client_vineri\n# 3 Calculam numarul total de client pentru weekend\nnr_client_weekend = nr_client_sambata + nr_client_duminica\n# 4 Verificare daca duminica sunt mai multi clienti decat sambata\ncompar_dum_sam = nr_client_duminica > nr_client_sambata\nprint(f\"Nr. de clienti Duminica este mai mare decat Sambata: {compar_dum_sam}\")",
+        "detail": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "nr_client_zile_lucr",
+        "kind": 5,
+        "importPath": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "nr_client_zile_lucr = nr_client_luni + nr_client_marti \\\n                    + nr_client_miercuri + nr_client_joi + nr_client_vineri\n# 3 Calculam numarul total de client pentru weekend\nnr_client_weekend = nr_client_sambata + nr_client_duminica\n# 4 Verificare daca duminica sunt mai multi clienti decat sambata\ncompar_dum_sam = nr_client_duminica > nr_client_sambata\nprint(f\"Nr. de clienti Duminica este mai mare decat Sambata: {compar_dum_sam}\")\n# 5 Verificare daca nr. total de clienti pentru zilele lucratoare\n# este mai mare decat nr. total de clienti pentru weekend\ncompar_zile_lucr = nr_client_zile_lucr > nr_client_weekend",
+        "detail": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "nr_client_weekend",
+        "kind": 5,
+        "importPath": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "nr_client_weekend = nr_client_sambata + nr_client_duminica\n# 4 Verificare daca duminica sunt mai multi clienti decat sambata\ncompar_dum_sam = nr_client_duminica > nr_client_sambata\nprint(f\"Nr. de clienti Duminica este mai mare decat Sambata: {compar_dum_sam}\")\n# 5 Verificare daca nr. total de clienti pentru zilele lucratoare\n# este mai mare decat nr. total de clienti pentru weekend\ncompar_zile_lucr = nr_client_zile_lucr > nr_client_weekend\nprint(f\"Nr. de clienti in zile lucr. este mai mare decat in weekend: {compar_zile_lucr}\")\n# 6 Verificare daca saptamana este un succes\nsucces_saptamana = nr_client_total > 1000 or nr_client_weekend > 500",
+        "detail": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "compar_dum_sam",
+        "kind": 5,
+        "importPath": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "compar_dum_sam = nr_client_duminica > nr_client_sambata\nprint(f\"Nr. de clienti Duminica este mai mare decat Sambata: {compar_dum_sam}\")\n# 5 Verificare daca nr. total de clienti pentru zilele lucratoare\n# este mai mare decat nr. total de clienti pentru weekend\ncompar_zile_lucr = nr_client_zile_lucr > nr_client_weekend\nprint(f\"Nr. de clienti in zile lucr. este mai mare decat in weekend: {compar_zile_lucr}\")\n# 6 Verificare daca saptamana este un succes\nsucces_saptamana = nr_client_total > 1000 or nr_client_weekend > 500\nprint(f\"Saptamana este un succes: {succes_saptamana}\")\n# 7 Afisare nr total de clienti pe intreaga saptamana",
+        "detail": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "compar_zile_lucr",
+        "kind": 5,
+        "importPath": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "compar_zile_lucr = nr_client_zile_lucr > nr_client_weekend\nprint(f\"Nr. de clienti in zile lucr. este mai mare decat in weekend: {compar_zile_lucr}\")\n# 6 Verificare daca saptamana este un succes\nsucces_saptamana = nr_client_total > 1000 or nr_client_weekend > 500\nprint(f\"Saptamana este un succes: {succes_saptamana}\")\n# 7 Afisare nr total de clienti pe intreaga saptamana\nprint(f\"Nr. total de clienti pe intreaga saptamana este: {nr_client_total}\")\n# 8 Afisare nr total de clienti pe zilele lucratoare\nprint(f\"Nr. total de clienti pe zilele lucratoare este: {nr_client_zile_lucr}\")\n# 9 Afisare nr total de clienti pe weekend",
+        "detail": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "succes_saptamana",
+        "kind": 5,
+        "importPath": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "succes_saptamana = nr_client_total > 1000 or nr_client_weekend > 500\nprint(f\"Saptamana este un succes: {succes_saptamana}\")\n# 7 Afisare nr total de clienti pe intreaga saptamana\nprint(f\"Nr. total de clienti pe intreaga saptamana este: {nr_client_total}\")\n# 8 Afisare nr total de clienti pe zilele lucratoare\nprint(f\"Nr. total de clienti pe zilele lucratoare este: {nr_client_zile_lucr}\")\n# 9 Afisare nr total de clienti pe weekend\nprint(f\"Nr. total de clienti pe weekend este: {nr_client_weekend}\")",
+        "detail": "tema_modul_2.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "clienti_luni",
+        "kind": 5,
+        "importPath": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "description": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "peekOfCode": "clienti_luni = int(input(\"Introduceti nr. de clienti pentru luni: \"))\nclienti_marti = int(input(\"Introduceti nr. de clienti pentru marti: \"))\nclienti_miercuri = int(input(\"Introduceti nr. de clienti pentru miercuri: \"))\nclienti_joi = int(input(\"Introduceti nr. de clienti pentru joi: \"))\nclienti_vineri = int(input(\"Introduceti nr. de clienti pentru vineri: \"))\nclienti_sambata = int(input(\"Introduceti nr. de clienti pentru sambata: \"))\nclienti_duminica = int(input(\"Introduceti nr. de clienti pentru duminica: \"))\n# 2. Calculați și afișați nr. total de clienți pentru întreaga săptămână\ntotal_clienti = clienti_luni + clienti_marti + clienti_miercuri + clienti_joi \\\n    + clienti_vineri + clienti_sambata + clienti_duminica",
+        "detail": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "clienti_marti",
+        "kind": 5,
+        "importPath": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "description": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "peekOfCode": "clienti_marti = int(input(\"Introduceti nr. de clienti pentru marti: \"))\nclienti_miercuri = int(input(\"Introduceti nr. de clienti pentru miercuri: \"))\nclienti_joi = int(input(\"Introduceti nr. de clienti pentru joi: \"))\nclienti_vineri = int(input(\"Introduceti nr. de clienti pentru vineri: \"))\nclienti_sambata = int(input(\"Introduceti nr. de clienti pentru sambata: \"))\nclienti_duminica = int(input(\"Introduceti nr. de clienti pentru duminica: \"))\n# 2. Calculați și afișați nr. total de clienți pentru întreaga săptămână\ntotal_clienti = clienti_luni + clienti_marti + clienti_miercuri + clienti_joi \\\n    + clienti_vineri + clienti_sambata + clienti_duminica\nprint(f\"Nr. total de clienti pentru intreaga saptamana este: {total_clienti}\")",
+        "detail": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "clienti_miercuri",
+        "kind": 5,
+        "importPath": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "description": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "peekOfCode": "clienti_miercuri = int(input(\"Introduceti nr. de clienti pentru miercuri: \"))\nclienti_joi = int(input(\"Introduceti nr. de clienti pentru joi: \"))\nclienti_vineri = int(input(\"Introduceti nr. de clienti pentru vineri: \"))\nclienti_sambata = int(input(\"Introduceti nr. de clienti pentru sambata: \"))\nclienti_duminica = int(input(\"Introduceti nr. de clienti pentru duminica: \"))\n# 2. Calculați și afișați nr. total de clienți pentru întreaga săptămână\ntotal_clienti = clienti_luni + clienti_marti + clienti_miercuri + clienti_joi \\\n    + clienti_vineri + clienti_sambata + clienti_duminica\nprint(f\"Nr. total de clienti pentru intreaga saptamana este: {total_clienti}\")\n# 3. Afișați nr. total de clienți pentru zile lucrătoare (luni-vineri)",
+        "detail": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "clienti_joi",
+        "kind": 5,
+        "importPath": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "description": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "peekOfCode": "clienti_joi = int(input(\"Introduceti nr. de clienti pentru joi: \"))\nclienti_vineri = int(input(\"Introduceti nr. de clienti pentru vineri: \"))\nclienti_sambata = int(input(\"Introduceti nr. de clienti pentru sambata: \"))\nclienti_duminica = int(input(\"Introduceti nr. de clienti pentru duminica: \"))\n# 2. Calculați și afișați nr. total de clienți pentru întreaga săptămână\ntotal_clienti = clienti_luni + clienti_marti + clienti_miercuri + clienti_joi \\\n    + clienti_vineri + clienti_sambata + clienti_duminica\nprint(f\"Nr. total de clienti pentru intreaga saptamana este: {total_clienti}\")\n# 3. Afișați nr. total de clienți pentru zile lucrătoare (luni-vineri)\nclienti_zile_lucr = clienti_luni + clienti_marti + clienti_miercuri + \\",
+        "detail": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "clienti_vineri",
+        "kind": 5,
+        "importPath": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "description": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "peekOfCode": "clienti_vineri = int(input(\"Introduceti nr. de clienti pentru vineri: \"))\nclienti_sambata = int(input(\"Introduceti nr. de clienti pentru sambata: \"))\nclienti_duminica = int(input(\"Introduceti nr. de clienti pentru duminica: \"))\n# 2. Calculați și afișați nr. total de clienți pentru întreaga săptămână\ntotal_clienti = clienti_luni + clienti_marti + clienti_miercuri + clienti_joi \\\n    + clienti_vineri + clienti_sambata + clienti_duminica\nprint(f\"Nr. total de clienti pentru intreaga saptamana este: {total_clienti}\")\n# 3. Afișați nr. total de clienți pentru zile lucrătoare (luni-vineri)\nclienti_zile_lucr = clienti_luni + clienti_marti + clienti_miercuri + \\\n    clienti_joi + clienti_vineri",
+        "detail": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "clienti_sambata",
+        "kind": 5,
+        "importPath": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "description": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "peekOfCode": "clienti_sambata = int(input(\"Introduceti nr. de clienti pentru sambata: \"))\nclienti_duminica = int(input(\"Introduceti nr. de clienti pentru duminica: \"))\n# 2. Calculați și afișați nr. total de clienți pentru întreaga săptămână\ntotal_clienti = clienti_luni + clienti_marti + clienti_miercuri + clienti_joi \\\n    + clienti_vineri + clienti_sambata + clienti_duminica\nprint(f\"Nr. total de clienti pentru intreaga saptamana este: {total_clienti}\")\n# 3. Afișați nr. total de clienți pentru zile lucrătoare (luni-vineri)\nclienti_zile_lucr = clienti_luni + clienti_marti + clienti_miercuri + \\\n    clienti_joi + clienti_vineri\nprint(f\"Nr. total de clienti pentru zile lucratoare este: {clienti_zile_lucr}\")",
+        "detail": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "clienti_duminica",
+        "kind": 5,
+        "importPath": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "description": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "peekOfCode": "clienti_duminica = int(input(\"Introduceti nr. de clienti pentru duminica: \"))\n# 2. Calculați și afișați nr. total de clienți pentru întreaga săptămână\ntotal_clienti = clienti_luni + clienti_marti + clienti_miercuri + clienti_joi \\\n    + clienti_vineri + clienti_sambata + clienti_duminica\nprint(f\"Nr. total de clienti pentru intreaga saptamana este: {total_clienti}\")\n# 3. Afișați nr. total de clienți pentru zile lucrătoare (luni-vineri)\nclienti_zile_lucr = clienti_luni + clienti_marti + clienti_miercuri + \\\n    clienti_joi + clienti_vineri\nprint(f\"Nr. total de clienti pentru zile lucratoare este: {clienti_zile_lucr}\")\n# 4. Afișați nr. total de clienți pentru weekend (sâmbătă-duminică)",
+        "detail": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "total_clienti",
+        "kind": 5,
+        "importPath": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "description": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "peekOfCode": "total_clienti = clienti_luni + clienti_marti + clienti_miercuri + clienti_joi \\\n    + clienti_vineri + clienti_sambata + clienti_duminica\nprint(f\"Nr. total de clienti pentru intreaga saptamana este: {total_clienti}\")\n# 3. Afișați nr. total de clienți pentru zile lucrătoare (luni-vineri)\nclienti_zile_lucr = clienti_luni + clienti_marti + clienti_miercuri + \\\n    clienti_joi + clienti_vineri\nprint(f\"Nr. total de clienti pentru zile lucratoare este: {clienti_zile_lucr}\")\n# 4. Afișați nr. total de clienți pentru weekend (sâmbătă-duminică)\nclienti_weekend = clienti_sambata + clienti_duminica\nprint(f\"Nr. total de clienti pentru weekend este: {clienti_weekend}\")",
+        "detail": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "clienti_zile_lucr",
+        "kind": 5,
+        "importPath": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "description": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "peekOfCode": "clienti_zile_lucr = clienti_luni + clienti_marti + clienti_miercuri + \\\n    clienti_joi + clienti_vineri\nprint(f\"Nr. total de clienti pentru zile lucratoare este: {clienti_zile_lucr}\")\n# 4. Afișați nr. total de clienți pentru weekend (sâmbătă-duminică)\nclienti_weekend = clienti_sambata + clienti_duminica\nprint(f\"Nr. total de clienti pentru weekend este: {clienti_weekend}\")\n# 5. Comparare număr de clienți weekend\nif clienti_duminica > clienti_sambata: print(\"Duminica a fost o zi de vanzari mai buna decat sambata.\")\nif clienti_sambata > clienti_duminica: print(\"Sambata a fost o zi de vanzari mai buna decat duminica.\")\nif clienti_sambata == clienti_duminica: print(\"Sambata si duminica au avut acelasi numar de clienti.\")",
+        "detail": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "clienti_weekend",
+        "kind": 5,
+        "importPath": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "description": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "peekOfCode": "clienti_weekend = clienti_sambata + clienti_duminica\nprint(f\"Nr. total de clienti pentru weekend este: {clienti_weekend}\")\n# 5. Comparare număr de clienți weekend\nif clienti_duminica > clienti_sambata: print(\"Duminica a fost o zi de vanzari mai buna decat sambata.\")\nif clienti_sambata > clienti_duminica: print(\"Sambata a fost o zi de vanzari mai buna decat duminica.\")\nif clienti_sambata == clienti_duminica: print(\"Sambata si duminica au avut acelasi numar de clienti.\")\n# 6. Comparare număr de clienți zile lucrătoare și weekend\nif clienti_zile_lucr > clienti_weekend:\n    print(\"Zilele lucratoare au avut mai multi clienti decat weekendul.\")\nelse:",
+        "detail": "tema_modul_3.analiza_av_filtrare_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "nr_client_luni",
+        "kind": 5,
+        "importPath": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "nr_client_luni = int(input(\"Introduceti nr. de clienti Luni: \"))\nnr_client_marti = int(input(\"Introduceti nr. de clienti Marti: \"))\nnr_client_miercuri = int(input(\"Introduceti nr. de clienti Miercuri: \"))\nnr_client_joi = int(input(\"Introduceti nr. de clienti Joi: \"))\nnr_client_vineri = int(input(\"Introduceti nr. de clienti Vineri: \"))\nnr_client_sambata = int(input(\"Introduceti nr. de clienti Sambata: \"))\nnr_client_duminica = int(input(\"Introduceti nr. de clienti Duminica: \"))\n# 1 Calculam numarul total de clienti pentru intreaga saptamana\nnr_client_total = nr_client_luni + nr_client_marti + nr_client_miercuri \\\n    + nr_client_joi + nr_client_vineri + nr_client_sambata + nr_client_duminica",
+        "detail": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "nr_client_marti",
+        "kind": 5,
+        "importPath": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "nr_client_marti = int(input(\"Introduceti nr. de clienti Marti: \"))\nnr_client_miercuri = int(input(\"Introduceti nr. de clienti Miercuri: \"))\nnr_client_joi = int(input(\"Introduceti nr. de clienti Joi: \"))\nnr_client_vineri = int(input(\"Introduceti nr. de clienti Vineri: \"))\nnr_client_sambata = int(input(\"Introduceti nr. de clienti Sambata: \"))\nnr_client_duminica = int(input(\"Introduceti nr. de clienti Duminica: \"))\n# 1 Calculam numarul total de clienti pentru intreaga saptamana\nnr_client_total = nr_client_luni + nr_client_marti + nr_client_miercuri \\\n    + nr_client_joi + nr_client_vineri + nr_client_sambata + nr_client_duminica\n# 2 Calculam numarul total de client pentru zilele lucratoare",
+        "detail": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "nr_client_miercuri",
+        "kind": 5,
+        "importPath": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "nr_client_miercuri = int(input(\"Introduceti nr. de clienti Miercuri: \"))\nnr_client_joi = int(input(\"Introduceti nr. de clienti Joi: \"))\nnr_client_vineri = int(input(\"Introduceti nr. de clienti Vineri: \"))\nnr_client_sambata = int(input(\"Introduceti nr. de clienti Sambata: \"))\nnr_client_duminica = int(input(\"Introduceti nr. de clienti Duminica: \"))\n# 1 Calculam numarul total de clienti pentru intreaga saptamana\nnr_client_total = nr_client_luni + nr_client_marti + nr_client_miercuri \\\n    + nr_client_joi + nr_client_vineri + nr_client_sambata + nr_client_duminica\n# 2 Calculam numarul total de client pentru zilele lucratoare\nnr_client_zile_lucr = nr_client_luni + nr_client_marti \\",
+        "detail": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "nr_client_joi",
+        "kind": 5,
+        "importPath": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "nr_client_joi = int(input(\"Introduceti nr. de clienti Joi: \"))\nnr_client_vineri = int(input(\"Introduceti nr. de clienti Vineri: \"))\nnr_client_sambata = int(input(\"Introduceti nr. de clienti Sambata: \"))\nnr_client_duminica = int(input(\"Introduceti nr. de clienti Duminica: \"))\n# 1 Calculam numarul total de clienti pentru intreaga saptamana\nnr_client_total = nr_client_luni + nr_client_marti + nr_client_miercuri \\\n    + nr_client_joi + nr_client_vineri + nr_client_sambata + nr_client_duminica\n# 2 Calculam numarul total de client pentru zilele lucratoare\nnr_client_zile_lucr = nr_client_luni + nr_client_marti \\\n                    + nr_client_miercuri + nr_client_joi + nr_client_vineri",
+        "detail": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "nr_client_vineri",
+        "kind": 5,
+        "importPath": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "nr_client_vineri = int(input(\"Introduceti nr. de clienti Vineri: \"))\nnr_client_sambata = int(input(\"Introduceti nr. de clienti Sambata: \"))\nnr_client_duminica = int(input(\"Introduceti nr. de clienti Duminica: \"))\n# 1 Calculam numarul total de clienti pentru intreaga saptamana\nnr_client_total = nr_client_luni + nr_client_marti + nr_client_miercuri \\\n    + nr_client_joi + nr_client_vineri + nr_client_sambata + nr_client_duminica\n# 2 Calculam numarul total de client pentru zilele lucratoare\nnr_client_zile_lucr = nr_client_luni + nr_client_marti \\\n                    + nr_client_miercuri + nr_client_joi + nr_client_vineri\n# 3 Calculam numarul total de client pentru weekend",
+        "detail": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "nr_client_sambata",
+        "kind": 5,
+        "importPath": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "nr_client_sambata = int(input(\"Introduceti nr. de clienti Sambata: \"))\nnr_client_duminica = int(input(\"Introduceti nr. de clienti Duminica: \"))\n# 1 Calculam numarul total de clienti pentru intreaga saptamana\nnr_client_total = nr_client_luni + nr_client_marti + nr_client_miercuri \\\n    + nr_client_joi + nr_client_vineri + nr_client_sambata + nr_client_duminica\n# 2 Calculam numarul total de client pentru zilele lucratoare\nnr_client_zile_lucr = nr_client_luni + nr_client_marti \\\n                    + nr_client_miercuri + nr_client_joi + nr_client_vineri\n# 3 Calculam numarul total de client pentru weekend\nnr_client_weekend = nr_client_sambata + nr_client_duminica",
+        "detail": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "nr_client_duminica",
+        "kind": 5,
+        "importPath": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "nr_client_duminica = int(input(\"Introduceti nr. de clienti Duminica: \"))\n# 1 Calculam numarul total de clienti pentru intreaga saptamana\nnr_client_total = nr_client_luni + nr_client_marti + nr_client_miercuri \\\n    + nr_client_joi + nr_client_vineri + nr_client_sambata + nr_client_duminica\n# 2 Calculam numarul total de client pentru zilele lucratoare\nnr_client_zile_lucr = nr_client_luni + nr_client_marti \\\n                    + nr_client_miercuri + nr_client_joi + nr_client_vineri\n# 3 Calculam numarul total de client pentru weekend\nnr_client_weekend = nr_client_sambata + nr_client_duminica\n# 4 Verificare daca duminica sunt mai multi clienti decat sambata",
+        "detail": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "nr_client_total",
+        "kind": 5,
+        "importPath": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "nr_client_total = nr_client_luni + nr_client_marti + nr_client_miercuri \\\n    + nr_client_joi + nr_client_vineri + nr_client_sambata + nr_client_duminica\n# 2 Calculam numarul total de client pentru zilele lucratoare\nnr_client_zile_lucr = nr_client_luni + nr_client_marti \\\n                    + nr_client_miercuri + nr_client_joi + nr_client_vineri\n# 3 Calculam numarul total de client pentru weekend\nnr_client_weekend = nr_client_sambata + nr_client_duminica\n# 4 Verificare daca duminica sunt mai multi clienti decat sambata\ncompar_dum_sam = nr_client_duminica > nr_client_sambata\nprint(f\"Nr. de clienti Duminica este mai mare decat Sambata: {compar_dum_sam}\")",
+        "detail": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "nr_client_zile_lucr",
+        "kind": 5,
+        "importPath": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "nr_client_zile_lucr = nr_client_luni + nr_client_marti \\\n                    + nr_client_miercuri + nr_client_joi + nr_client_vineri\n# 3 Calculam numarul total de client pentru weekend\nnr_client_weekend = nr_client_sambata + nr_client_duminica\n# 4 Verificare daca duminica sunt mai multi clienti decat sambata\ncompar_dum_sam = nr_client_duminica > nr_client_sambata\nprint(f\"Nr. de clienti Duminica este mai mare decat Sambata: {compar_dum_sam}\")\n# 5 Verificare daca nr. total de clienti pentru zilele lucratoare\n# este mai mare decat nr. total de clienti pentru weekend\ncompar_zile_lucr = nr_client_zile_lucr > nr_client_weekend",
+        "detail": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "nr_client_weekend",
+        "kind": 5,
+        "importPath": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "nr_client_weekend = nr_client_sambata + nr_client_duminica\n# 4 Verificare daca duminica sunt mai multi clienti decat sambata\ncompar_dum_sam = nr_client_duminica > nr_client_sambata\nprint(f\"Nr. de clienti Duminica este mai mare decat Sambata: {compar_dum_sam}\")\n# 5 Verificare daca nr. total de clienti pentru zilele lucratoare\n# este mai mare decat nr. total de clienti pentru weekend\ncompar_zile_lucr = nr_client_zile_lucr > nr_client_weekend\nprint(f\"Nr. de clienti in zile lucr. este mai mare decat in weekend: {compar_zile_lucr}\")\n# 6 Verificare daca saptamana este un succes\nsucces_saptamana = nr_client_total > 1000 or nr_client_weekend > 500",
+        "detail": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "compar_dum_sam",
+        "kind": 5,
+        "importPath": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "compar_dum_sam = nr_client_duminica > nr_client_sambata\nprint(f\"Nr. de clienti Duminica este mai mare decat Sambata: {compar_dum_sam}\")\n# 5 Verificare daca nr. total de clienti pentru zilele lucratoare\n# este mai mare decat nr. total de clienti pentru weekend\ncompar_zile_lucr = nr_client_zile_lucr > nr_client_weekend\nprint(f\"Nr. de clienti in zile lucr. este mai mare decat in weekend: {compar_zile_lucr}\")\n# 6 Verificare daca saptamana este un succes\nsucces_saptamana = nr_client_total > 1000 or nr_client_weekend > 500\nprint(f\"Saptamana este un succes: {succes_saptamana}\")\n# 7 Afisare nr total de clienti pe intreaga saptamana",
+        "detail": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "compar_zile_lucr",
+        "kind": 5,
+        "importPath": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "compar_zile_lucr = nr_client_zile_lucr > nr_client_weekend\nprint(f\"Nr. de clienti in zile lucr. este mai mare decat in weekend: {compar_zile_lucr}\")\n# 6 Verificare daca saptamana este un succes\nsucces_saptamana = nr_client_total > 1000 or nr_client_weekend > 500\nprint(f\"Saptamana este un succes: {succes_saptamana}\")\n# 7 Afisare nr total de clienti pe intreaga saptamana\nprint(f\"Nr. total de clienti pe intreaga saptamana este: {nr_client_total}\")\n# 8 Afisare nr total de clienti pe zilele lucratoare\nprint(f\"Nr. total de clienti pe zilele lucratoare este: {nr_client_zile_lucr}\")\n# 9 Afisare nr total de clienti pe weekend",
+        "detail": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "succes_saptamana",
+        "kind": 5,
+        "importPath": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "description": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "peekOfCode": "succes_saptamana = nr_client_total > 1000 or nr_client_weekend > 500\nprint(f\"Saptamana este un succes: {succes_saptamana}\")\n# 7 Afisare nr total de clienti pe intreaga saptamana\nprint(f\"Nr. total de clienti pe intreaga saptamana este: {nr_client_total}\")\n# 8 Afisare nr total de clienti pe zilele lucratoare\nprint(f\"Nr. total de clienti pe zilele lucratoare este: {nr_client_zile_lucr}\")\n# 9 Afisare nr total de clienti pe weekend\nprint(f\"Nr. total de clienti pe weekend este: {nr_client_weekend}\")",
+        "detail": "tema_modul_3.analiza_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "numar_vocale",
+        "kind": 2,
+        "importPath": "tema_modul_5.verificare_nume_utilizatori",
+        "description": "tema_modul_5.verificare_nume_utilizatori",
+        "peekOfCode": "def numar_vocale(nume):\n    vocale = ['A', 'E', 'I', 'O', 'U', 'a', 'e', 'i', 'o', 'u']\n    contor_vocale = 0\n    for caracter in nume:\n        if caracter in vocale:\n            contor_vocale += 1\n    return contor_vocale\nwhile True:\n    nume_client = input(\"Introduceti numele clientului: \")\n    numar_vocale_client = numar_vocale(nume_client)",
+        "detail": "tema_modul_5.verificare_nume_utilizatori",
+        "documentation": {}
+    },
+    {
+        "label": "clienti_luni",
+        "kind": 5,
+        "importPath": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "description": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "peekOfCode": "clienti_luni = int(input(\"Introduceti nr. de clienti pentru luni: \"))\nclienti_marti = int(input(\"Introduceti nr. de clienti pentru marti: \"))\nclienti_miercuri = int(input(\"Introduceti nr. de clienti pentru miercuri: \"))\nclienti_joi = int(input(\"Introduceti nr. de clienti pentru joi: \"))\nclienti_vineri = int(input(\"Introduceti nr. de clienti pentru vineri: \"))\nclienti_sambata = int(input(\"Introduceti nr. de clienti pentru sambata: \"))\nclienti_duminica = int(input(\"Introduceti nr. de clienti pentru duminica: \"))\nclienti_zile_lucr = clienti_luni + clienti_marti + clienti_miercuri + \\\n    clienti_joi + clienti_vineri\nclienti_weekend = clienti_sambata + clienti_duminica",
+        "detail": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "clienti_marti",
+        "kind": 5,
+        "importPath": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "description": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "peekOfCode": "clienti_marti = int(input(\"Introduceti nr. de clienti pentru marti: \"))\nclienti_miercuri = int(input(\"Introduceti nr. de clienti pentru miercuri: \"))\nclienti_joi = int(input(\"Introduceti nr. de clienti pentru joi: \"))\nclienti_vineri = int(input(\"Introduceti nr. de clienti pentru vineri: \"))\nclienti_sambata = int(input(\"Introduceti nr. de clienti pentru sambata: \"))\nclienti_duminica = int(input(\"Introduceti nr. de clienti pentru duminica: \"))\nclienti_zile_lucr = clienti_luni + clienti_marti + clienti_miercuri + \\\n    clienti_joi + clienti_vineri\nclienti_weekend = clienti_sambata + clienti_duminica\ntotal_clienti = clienti_zile_lucr + clienti_weekend",
+        "detail": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "clienti_miercuri",
+        "kind": 5,
+        "importPath": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "description": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "peekOfCode": "clienti_miercuri = int(input(\"Introduceti nr. de clienti pentru miercuri: \"))\nclienti_joi = int(input(\"Introduceti nr. de clienti pentru joi: \"))\nclienti_vineri = int(input(\"Introduceti nr. de clienti pentru vineri: \"))\nclienti_sambata = int(input(\"Introduceti nr. de clienti pentru sambata: \"))\nclienti_duminica = int(input(\"Introduceti nr. de clienti pentru duminica: \"))\nclienti_zile_lucr = clienti_luni + clienti_marti + clienti_miercuri + \\\n    clienti_joi + clienti_vineri\nclienti_weekend = clienti_sambata + clienti_duminica\ntotal_clienti = clienti_zile_lucr + clienti_weekend\n# 2. Calculați și afișați nr. total de clienți pentru întreaga săptămână",
+        "detail": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "clienti_joi",
+        "kind": 5,
+        "importPath": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "description": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "peekOfCode": "clienti_joi = int(input(\"Introduceti nr. de clienti pentru joi: \"))\nclienti_vineri = int(input(\"Introduceti nr. de clienti pentru vineri: \"))\nclienti_sambata = int(input(\"Introduceti nr. de clienti pentru sambata: \"))\nclienti_duminica = int(input(\"Introduceti nr. de clienti pentru duminica: \"))\nclienti_zile_lucr = clienti_luni + clienti_marti + clienti_miercuri + \\\n    clienti_joi + clienti_vineri\nclienti_weekend = clienti_sambata + clienti_duminica\ntotal_clienti = clienti_zile_lucr + clienti_weekend\n# 2. Calculați și afișați nr. total de clienți pentru întreaga săptămână\nprint(f\"Nr. total de clienti pentru intreaga saptamana este: {total_clienti}\")",
+        "detail": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "clienti_vineri",
+        "kind": 5,
+        "importPath": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "description": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "peekOfCode": "clienti_vineri = int(input(\"Introduceti nr. de clienti pentru vineri: \"))\nclienti_sambata = int(input(\"Introduceti nr. de clienti pentru sambata: \"))\nclienti_duminica = int(input(\"Introduceti nr. de clienti pentru duminica: \"))\nclienti_zile_lucr = clienti_luni + clienti_marti + clienti_miercuri + \\\n    clienti_joi + clienti_vineri\nclienti_weekend = clienti_sambata + clienti_duminica\ntotal_clienti = clienti_zile_lucr + clienti_weekend\n# 2. Calculați și afișați nr. total de clienți pentru întreaga săptămână\nprint(f\"Nr. total de clienti pentru intreaga saptamana este: {total_clienti}\")\n# 3. Afișați nr. total de clienți pentru zile lucrătoare (luni-vineri)",
+        "detail": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "clienti_sambata",
+        "kind": 5,
+        "importPath": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "description": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "peekOfCode": "clienti_sambata = int(input(\"Introduceti nr. de clienti pentru sambata: \"))\nclienti_duminica = int(input(\"Introduceti nr. de clienti pentru duminica: \"))\nclienti_zile_lucr = clienti_luni + clienti_marti + clienti_miercuri + \\\n    clienti_joi + clienti_vineri\nclienti_weekend = clienti_sambata + clienti_duminica\ntotal_clienti = clienti_zile_lucr + clienti_weekend\n# 2. Calculați și afișați nr. total de clienți pentru întreaga săptămână\nprint(f\"Nr. total de clienti pentru intreaga saptamana este: {total_clienti}\")\n# 3. Afișați nr. total de clienți pentru zile lucrătoare (luni-vineri)\nprint(f\"Nr. total de clienti pentru zile lucratoare este: {clienti_zile_lucr}\")",
+        "detail": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "clienti_duminica",
+        "kind": 5,
+        "importPath": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "description": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "peekOfCode": "clienti_duminica = int(input(\"Introduceti nr. de clienti pentru duminica: \"))\nclienti_zile_lucr = clienti_luni + clienti_marti + clienti_miercuri + \\\n    clienti_joi + clienti_vineri\nclienti_weekend = clienti_sambata + clienti_duminica\ntotal_clienti = clienti_zile_lucr + clienti_weekend\n# 2. Calculați și afișați nr. total de clienți pentru întreaga săptămână\nprint(f\"Nr. total de clienti pentru intreaga saptamana este: {total_clienti}\")\n# 3. Afișați nr. total de clienți pentru zile lucrătoare (luni-vineri)\nprint(f\"Nr. total de clienti pentru zile lucratoare este: {clienti_zile_lucr}\")\n# 4. Afișați nr. total de clienți pentru weekend (sâmbătă-duminică)",
+        "detail": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "clienti_zile_lucr",
+        "kind": 5,
+        "importPath": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "description": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "peekOfCode": "clienti_zile_lucr = clienti_luni + clienti_marti + clienti_miercuri + \\\n    clienti_joi + clienti_vineri\nclienti_weekend = clienti_sambata + clienti_duminica\ntotal_clienti = clienti_zile_lucr + clienti_weekend\n# 2. Calculați și afișați nr. total de clienți pentru întreaga săptămână\nprint(f\"Nr. total de clienti pentru intreaga saptamana este: {total_clienti}\")\n# 3. Afișați nr. total de clienți pentru zile lucrătoare (luni-vineri)\nprint(f\"Nr. total de clienti pentru zile lucratoare este: {clienti_zile_lucr}\")\n# 4. Afișați nr. total de clienți pentru weekend (sâmbătă-duminică)\nprint(f\"Nr. total de clienti pentru weekend este: {clienti_weekend}\")",
+        "detail": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "clienti_weekend",
+        "kind": 5,
+        "importPath": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "description": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "peekOfCode": "clienti_weekend = clienti_sambata + clienti_duminica\ntotal_clienti = clienti_zile_lucr + clienti_weekend\n# 2. Calculați și afișați nr. total de clienți pentru întreaga săptămână\nprint(f\"Nr. total de clienti pentru intreaga saptamana este: {total_clienti}\")\n# 3. Afișați nr. total de clienți pentru zile lucrătoare (luni-vineri)\nprint(f\"Nr. total de clienti pentru zile lucratoare este: {clienti_zile_lucr}\")\n# 4. Afișați nr. total de clienți pentru weekend (sâmbătă-duminică)\nprint(f\"Nr. total de clienti pentru weekend este: {clienti_weekend}\")\n# 5. Comparare număr de clienți weekend\nif clienti_duminica > clienti_sambata:",
+        "detail": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "documentation": {}
+    },
+    {
+        "label": "total_clienti",
+        "kind": 5,
+        "importPath": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "description": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "peekOfCode": "total_clienti = clienti_zile_lucr + clienti_weekend\n# 2. Calculați și afișați nr. total de clienți pentru întreaga săptămână\nprint(f\"Nr. total de clienti pentru intreaga saptamana este: {total_clienti}\")\n# 3. Afișați nr. total de clienți pentru zile lucrătoare (luni-vineri)\nprint(f\"Nr. total de clienti pentru zile lucratoare este: {clienti_zile_lucr}\")\n# 4. Afișați nr. total de clienți pentru weekend (sâmbătă-duminică)\nprint(f\"Nr. total de clienti pentru weekend este: {clienti_weekend}\")\n# 5. Comparare număr de clienți weekend\nif clienti_duminica > clienti_sambata:\n    print(\"Duminica a fost o zi de vanzari mai buna decat sambata.\")",
+        "detail": "analiza_av_filtrare_nr_clienti_saptamanal",
+        "documentation": {}
+    }
+]
